@@ -21,7 +21,15 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'harvestdor'
   spec.add_dependency 'solrizer'
   spec.add_dependency 'harvestdor-indexer'
+  spec.add_dependency "rails"
+  spec.add_dependency "blacklight-spotlight"
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-rails"
+  spec.add_development_dependency "capybara"
+  spec.add_development_dependency "poltergeist", ">= 1.5.0"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "jettywrapper"
+  spec.add_development_dependency "engine_cart", "~> 0.3"
 end
