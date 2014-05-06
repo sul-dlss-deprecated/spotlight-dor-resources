@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Within a Spotlight application with `spotlight-dor-resources` installed, you could index a set of records the ["harvestdor"](https://github.com/sul-dlss/harvestdor) or ["harvestdor-indexer"](https://github.com/sul-dlss/harvestdor-indexer) way, or from the rails console using:
+
+```ruby
+indexer = Spotlight::Dor::Indexer.new
+indexer.instance_variable_set(:@solr_client, Blacklight.solr)
+indexer.config[:default_set] = 'is_member_of_qb438pg7646'
+indexer.send(:harvestdor_client).config[:default_set] = 'is_member_of_qb438pg7646'
+indexer.harvest_and_index
+```
 
 ## Contributing
 
