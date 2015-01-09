@@ -7,7 +7,6 @@ module Spotlight::Dor::Resources
     initializer "spotlight.dor.initialize" do
       Spotlight::Engine.config.resource_providers << Spotlight::Resources::Searchworks
       Spotlight::Engine.config.resource_providers << Spotlight::Resources::Purl
-      Spotlight::Dor::Resources.indexer = Spotlight::Dor::Indexer.new
     end
   end
 end

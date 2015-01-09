@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in spotlight-dor-resources.gemspec
 gemspec
 
+gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer', branch: 'refactor'
+gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer", branch: "refactor"
 
 # If we don't specify 2.11.0 we'll end up with sprockets 2.12.0 in the main 
 # Gemfile.lock but since sass-rails gets generated (rails new) into the test app
