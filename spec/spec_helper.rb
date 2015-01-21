@@ -4,6 +4,7 @@ require 'factory_girl'
 require 'database_cleaner'
 require 'devise'
 require 'engine_cart'
+require 'vcr'
 EngineCart.load_application!
 
 require 'rspec/rails'
@@ -29,6 +30,11 @@ Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
 FactoryGirl.definition_file_paths = [File.expand_path("../factories", __FILE__)]
 FactoryGirl.find_definitions
 
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/vcr_cassettes"
+  config.hook_into :webmock
+  config.configure_rspec_metadata!
+end
 
 RSpec.configure do |config|
   config.use_transactional_fixtures = false

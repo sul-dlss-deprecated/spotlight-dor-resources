@@ -26,4 +26,8 @@ class TestAppGenerator < Rails::Generators::Base
     generate 'spotlight:install'
   end
 
+  def configure_gdor
+    copy_file "gdor.yml", "config/gdor.yml", force: true
+  end
+
 end

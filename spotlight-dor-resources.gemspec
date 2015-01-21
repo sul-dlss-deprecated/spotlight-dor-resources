@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "capybara"
   spec.add_development_dependency "poltergeist", ">= 1.5.0"
   spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
   spec.add_development_dependency "jettywrapper"
   spec.add_development_dependency "engine_cart", "~> 0.3"
   spec.add_development_dependency "factory_girl"
