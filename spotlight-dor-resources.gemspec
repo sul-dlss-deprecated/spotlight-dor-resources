@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Spotlight::Dor::Resources::VERSION
   spec.authors       = ["Chris Beer"]
   spec.email         = ["cabeer@stanford.edu"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.summary       = "Spotlight resource indexer for DOR resources."
   spec.homepage      = ""
   spec.license       = "Apache 2"
 
