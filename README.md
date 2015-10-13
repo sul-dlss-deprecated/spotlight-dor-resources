@@ -1,6 +1,8 @@
 # Spotlight::Dor::Resources
 
-TODO: Write a gem description
+ Harvest Stanford DOR resources into a Spotlight exhibit.
+
+ Note:  DOR is behind firewall, so continuous integration is at Stanford, not via travis.
 
 ## Installation
 
