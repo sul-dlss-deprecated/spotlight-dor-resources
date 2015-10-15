@@ -1,8 +1,8 @@
+[![Build Status](https://travis-ci.org/sul-dlss/spotlight-dor-resources.png?branch=master)](https://travis-ci.org/sul-dlss/spotlight-dor-resources) | [![Coverage Status](https://coveralls.io/repos/sul-dlss/spotlight-dor-resources/badge.png?branch=master)](https://coveralls.io/r/sul-dlss/spotlight-dor-resources) | [![Gem Version](https://badge.fury.io/rb/spotlight-dor-resources.png)](http://badge.fury.io/rb/spotlight-dor-resources)
+
 # Spotlight::Dor::Resources
 
  Harvest Stanford DOR resources into a Spotlight exhibit.
-
- Note:  DOR is behind firewall, so continuous integration is at Stanford, not via travis.
 
 ## Installation
 
@@ -32,7 +32,7 @@ indexer.harvest_and_index
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/spotlight-dor-resources/fork )
+1. Fork it ( http://github.com/sul-dlss/spotlight-dor-resources/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
