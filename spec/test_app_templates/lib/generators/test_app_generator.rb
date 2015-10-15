@@ -22,6 +22,10 @@ class TestAppGenerator < Rails::Generators::Base
   end
 
   def add_spotlight_routes_and_assets
+    # spotlight will provide its own catalog controller.. remove blacklight's to
+    # avoid getting prompted about file conflicts
+    remove_file "app/controllers/catalog_controller.rb"
+
     generate 'spotlight:install'
   end
 
