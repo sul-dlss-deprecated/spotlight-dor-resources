@@ -14,7 +14,6 @@ class TestAppGenerator < Rails::Generators::Base
   def run_blacklight_generator
     say_status("warning", "GENERATING BL", :yellow)  
     generate 'blacklight:install', '--devise --jettywrapper'
-    copy_file "catalog_controller.rb", "app/controllers/catalog_controller.rb", force: true
   end
 
   def run_spotlight_migrations
@@ -24,6 +23,10 @@ class TestAppGenerator < Rails::Generators::Base
 
   def add_spotlight_routes_and_assets
     generate 'spotlight:install'
+  end
+
+  def add_catalog_controller
+    copy_file "catalog_controller.rb", "app/controllers/catalog_controller.rb", force: true
   end
 
   def configure_gdor
