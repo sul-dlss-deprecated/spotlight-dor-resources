@@ -3,15 +3,15 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in spotlight-dor-resources.gemspec
 gemspec
 
-gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer', branch: 'refactor'
-gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer", branch: "refactor"
+gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer'
+gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer"
 gem "harvestdor", github: "sul-dlss/harvestdor", branch: "remove-oai"
-gem "sir_trevor_rails", github: "sul-dlss/sir-trevor-rails"
+gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
 
 group :test do
   # Peg simplecov to < 0.8 until this is resolved:
   # https://github.com/colszowka/simplecov/issues/281
-  gem 'simplecov', '~> 0.7.1', require: false
+  gem 'simplecov', '~> 0.10', require: false
   gem 'coveralls', require: false
 end
 

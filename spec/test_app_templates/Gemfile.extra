@@ -1,4 +1,4 @@
-gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer', branch: 'refactor'
-gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer", branch: "refactor"
+gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer'
+gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer"
 gem "harvestdor", github: "sul-dlss/harvestdor", branch: "remove-oai"
-gem "sir_trevor_rails", github: "sul-dlss/sir-trevor-rails"
+gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
