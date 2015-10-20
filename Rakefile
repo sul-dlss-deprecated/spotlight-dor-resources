@@ -21,6 +21,9 @@ Bundler::GemHelper.install_tasks
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 
+require 'rubocop/rake_task'
+RuboCop::RakeTask.new(:rubocop)
+
 require 'jettywrapper'
 require 'engine_cart/rake_task'
 task :ci => ['engine_cart:generate', 'jetty:clean', 'spotlight:configure_jetty'] do
@@ -38,10 +41,10 @@ end
 namespace :spotlight do
   desc "Copies the default SOLR config for the bundled Testing Server"
   task :configure_jetty do
-    FileList['solr_conf/conf/*'].each do |f|  
+    FileList['solr_conf/conf/*'].each do |f|
       cp("#{f}", 'jetty/solr/blacklight-core/conf/', :verbose => true)
     end
   end
 end
 
-task default: :ci
+task default: [:ci, :rubocop]
