@@ -13,6 +13,8 @@ group :test do
   # https://github.com/colszowka/simplecov/issues/281
   gem 'simplecov', '~> 0.10', require: false
   gem 'coveralls', require: false
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
 end
 
 file = File.expand_path("Gemfile", ENV['ENGINE_CART_DESTINATION'] || ENV['RAILS_ROOT'] || File.expand_path("../spec/internal", __FILE__))
@@ -21,7 +23,7 @@ if File.exists?(file)
   instance_eval File.read(file)
 else
   gem 'rails', ENV['RAILS_VERSION']
-  
+
   # explicitly include sass-rails to get compatible sprocket dependencies
   if ENV['RAILS_VERSION'].nil? || ENV['RAILS_VERSION'] =~ /^4.2/
     gem 'coffee-rails', '~> 4.1.0'
