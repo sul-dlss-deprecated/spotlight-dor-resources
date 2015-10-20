@@ -5,7 +5,7 @@ gemspec
 
 gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer'
 gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer"
-gem "harvestdor", github: "sul-dlss/harvestdor", branch: "remove-oai"
+gem "harvestdor", github: "sul-dlss/harvestdor"
 gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
 
 group :test do
