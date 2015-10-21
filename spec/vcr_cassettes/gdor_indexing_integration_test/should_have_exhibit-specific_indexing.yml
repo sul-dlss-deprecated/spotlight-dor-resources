@@ -19,34 +19,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:13 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - af327e0c70bbc7f94c21d8448a74f325
+      - 211bcc29-df83-4ea2-9070-fa5e3d53b35e
       X-Runtime:
-      - '0.008940'
-      X-Rack-Cache:
-      - miss
+      - '0.021654'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -120,9 +122,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -142,34 +145,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:13 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 57d76fff7729ea509b7c0aed61743dca
+      - 535bc22f-664c-492f-9f1b-b9dccacc782e
       X-Runtime:
-      - '0.006333'
-      X-Rack-Cache:
-      - miss
+      - '0.011978'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -243,9 +248,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -265,34 +271,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:13 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6e25e121e2e05e430236594554e57372
+      - 0f962653-aac5-4de3-9e13-92f44eea874d
       X-Runtime:
-      - '0.045430'
-      X-Rack-Cache:
-      - miss
+      - '0.011783'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -366,9 +374,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -388,34 +397,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:13 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 88c02874b729d7fad558069542f1c61e
+      - e89340f7-3cd5-4426-84df-896ca4c89c30
       X-Runtime:
-      - '0.007190'
-      X-Rack-Cache:
-      - miss
+      - '0.092598'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -489,9 +500,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -511,34 +523,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:14 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 72ca7ba99f643130b73f2a2039cd2c48
+      - a6ae9b35-b5e0-4990-b539-360405bc7393
       X-Runtime:
-      - '0.006124'
-      X-Rack-Cache:
-      - miss
+      - '0.014599'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -612,9 +626,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -634,34 +649,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:14 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7dfa1fb59cf9803ab3cda0da076ce106
+      - fe76ece3-4989-4c31-aaa8-e31598ea9a7a
       X-Runtime:
-      - '0.005688'
-      X-Rack-Cache:
-      - miss
+      - '0.013187'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -735,9 +752,10 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.mods
@@ -757,23 +775,25 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:14 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"bd138d261577623a3055d6c0e8c8bb4e"'
+      - W/"bd138d261577623a3055d6c0e8c8bb4e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2f6ed1c6df47ffc3fe573260c4c50e1d
+      - 917b22a5-134b-4e07-9c2c-71e673107ba7
       X-Runtime:
-      - '0.006373'
-      X-Rack-Cache:
-      - miss
+      - '0.012707'
       Status:
       - '200'
       Content-Length:
@@ -837,7 +857,7 @@ http_interactions:
           <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</accessCondition>
         </mods>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
     uri: http://purl.stanford.edu/xf680rd3068.xml
@@ -857,34 +877,36 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
+      - Tue, 20 Oct 2015 23:25:14 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
       Etag:
-      - '"4d8d53575fd12ca6d29fa943ae570f73"'
+      - W/"a7c5ed028ef64b2d1ed9457ef5e11816"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7fc04b41b0ae157634dd88b0ba1600e0
+      - 99fda5c7-3dd8-4cac-8408-53bc9d9af89d
       X-Runtime:
-      - '0.006900'
-      X-Rack-Cache:
-      - miss
+      - '0.012794'
       Status:
       - '200'
       Content-Length:
-      - '4351'
+      - '4368'
       Content-Type:
       - application/xml; charset=utf-8
     body:
       encoding: UTF-8
       string: |
         <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:xf680rd3068" published="2014-11-26T14:56:51-08:00">
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
           <identityMetadata>
             <sourceId source="sul">MISC_1855</sourceId>
             <objectId>druid:xf680rd3068</objectId>
@@ -958,195 +980,8 @@ http_interactions:
             <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
             <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
           </oai_dc:dc>
+          <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
-- request:
-    method: get
-    uri: http://purl.stanford.edu/sk373nx0013.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: ''
-    headers:
-      Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
-      Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
-      Etag:
-      - '"b57649db86a03d98005a2d298fb50f15"'
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - ac8aafd7aa5a3af95ff4acb5228f2bbb
-      X-Runtime:
-      - '0.046722'
-      X-Rack-Cache:
-      - miss
-      Status:
-      - '200'
-      Content-Length:
-      - '2714'
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:sk373nx0013" published="2014-11-26T14:53:43-08:00">
-          <identityMetadata>
-            <objectLabel>Stanford University Libraries Special Collections, Manuscripts Division</objectLabel>
-            <adminPolicy>druid:yg077np2529</adminPolicy>
-            <objectType>collection</objectType>
-            <objectType>set</objectType>
-            <otherId name="uuid">e705512e-6e1a-11e1-aeb1-022c4a818c40</otherId>
-            <objectId>druid:sk373nx0013</objectId>
-            <objectCreator>DOR</objectCreator>
-            <agreementId>druid:xf765cv5573</agreementId>
-            <tag>Remediated By : 4.14.4</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</human>
-            </use>
-            <use>
-              <human type="creativeCommons"/>
-              <machine type="creativeCommons"/>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:sk373nx0013">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Stanford University Libraries Special Collections, Manuscripts Division</dc:title>
-            <dc:description>The Manuscripts Division of the Department of Special Collections at Stanford University Library exists to arrange, describe, preserve, and make available documents of enduring historic value, both as intellectual items and as historical artifacts, to support the research needs of the undergraduates, graduate students, faculty and other scholars at Stanford University and beyond.</dc:description>
-            <dc:creator>Stanford University Libraries, Stanford Digital Repository</dc:creator>
-            <dc:type>Collection</dc:type>
-            <dc:date>2012</dc:date>
-            <dc:publisher>Stanford University Libraries and Academic Information Resources</dc:publisher>
-            <dc:language>eng</dc:language>
-          </oai_dc:dc>
-        </publicObject>
-    http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:05 GMT
-- request:
-    method: get
-    uri: http://purl.stanford.edu/sk373nx0013.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: ''
-    headers:
-      Date:
-      - Wed, 21 Jan 2015 16:49:05 GMT
-      Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
-      X-Ua-Compatible:
-      - IE=Edge,chrome=1
-      Etag:
-      - '"b57649db86a03d98005a2d298fb50f15"'
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - a5745bfcdae9bd2e2e47f76c55a5671a
-      X-Runtime:
-      - '0.007816'
-      X-Rack-Cache:
-      - miss
-      Status:
-      - '200'
-      Content-Length:
-      - '2714'
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:sk373nx0013" published="2014-11-26T14:53:43-08:00">
-          <identityMetadata>
-            <objectLabel>Stanford University Libraries Special Collections, Manuscripts Division</objectLabel>
-            <adminPolicy>druid:yg077np2529</adminPolicy>
-            <objectType>collection</objectType>
-            <objectType>set</objectType>
-            <otherId name="uuid">e705512e-6e1a-11e1-aeb1-022c4a818c40</otherId>
-            <objectId>druid:sk373nx0013</objectId>
-            <objectCreator>DOR</objectCreator>
-            <agreementId>druid:xf765cv5573</agreementId>
-            <tag>Remediated By : 4.14.4</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</human>
-            </use>
-            <use>
-              <human type="creativeCommons"/>
-              <machine type="creativeCommons"/>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:sk373nx0013">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Stanford University Libraries Special Collections, Manuscripts Division</dc:title>
-            <dc:description>The Manuscripts Division of the Department of Special Collections at Stanford University Library exists to arrange, describe, preserve, and make available documents of enduring historic value, both as intellectual items and as historical artifacts, to support the research needs of the undergraduates, graduate students, faculty and other scholars at Stanford University and beyond.</dc:description>
-            <dc:creator>Stanford University Libraries, Stanford Digital Repository</dc:creator>
-            <dc:type>Collection</dc:type>
-            <dc:date>2012</dc:date>
-            <dc:publisher>Stanford University Libraries and Academic Information Resources</dc:publisher>
-            <dc:language>eng</dc:language>
-          </oai_dc:dc>
-        </publicObject>
-    http_version: 
-  recorded_at: Wed, 21 Jan 2015 16:49:06 GMT
+  recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 recorded_with: VCR 2.9.3
