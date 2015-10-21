@@ -5,23 +5,7 @@
 # one by one as the offenses are removed from the code base.
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
-
-# Offense count: 1
-Lint/AmbiguousOperator:
-  Exclude:
-    - 'app/models/spotlight/resources/dor_resource.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-Lint/DeprecatedClassMethods:
-  Exclude:
-    - 'Gemfile'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-Lint/UnusedBlockArgument:
-  Exclude:
-    - 'lib/spotlight/dor/indexer.rb'
+require: rubocop-rspec
 
 # Offense count: 1
 Metrics/AbcSize:
@@ -38,16 +22,13 @@ Performance/StringReplacement:
   Exclude:
     - 'lib/spotlight/dor/indexer.rb'
 
-# Offense count: 1
 RSpec/DescribeClass:
   Exclude:
-    - 'spec/integration/gdor_integration_spec.rb'
+    - 'spec/integration/*'
 
-# Offense count: 4
 RSpec/DescribedClass:
   Exclude:
-    - 'spec/models/spotlight/resources/purl_spec.rb'
-    - 'spec/models/spotlight/resources/searchworks_spec.rb'
+    - 'spec/models/spotlight/resources/*'
 
 # Offense count: 26
 # Configuration parameters: CustomTransform, IgnoredWords.
