@@ -20,16 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-Within a Spotlight application with `spotlight-dor-resources` installed, you could index a set of records the ["harvestdor"](https://github.com/sul-dlss/harvestdor) or ["harvestdor-indexer"](https://github.com/sul-dlss/harvestdor-indexer) way, or from the rails console using:
+Within a Spotlight application with `spotlight-dor-resources` installed, you could index a set of records the ["harvestdor"](https://github.com/sul-dlss/harvestdor) or ["harvestdor-indexer"](https://github.com/sul-dlss/harvestdor-indexer) way.
 
-For access to a Rails console with the gem loaded up for testing purposes , you can use the engine-cart generated app:
+For access to a Rails console with the gem loaded up for testing purposes, you can use the engine-cart generated app:
 
-   $ cd spec/internal
-   $ bundle exec rails console
+    $ cd spec/internal
+
+    $ bundle exec rails console
 
 ```ruby
-resource=Spotlight::Resources::Purl.new({:url=>'https://purl.stanford.edu/cx709ty7769'})
-puts resource.to_solr.first
+purl=Spotlight::Resources::Purl.new({:url=>'https://purl.stanford.edu/cx709ty7769'})
+puts purl.to_solr.first # the solr document as a hash
+public_xml=purl.resource.public_xml # nokogiri doc with all public XML
+mods=purl.resource.mods # nokogiri doc with just the MODs
+smods_rec=purl.resource.smods_rec # a Stanford::Mods::Record Object (which inherits from the MODS gem)
+
+purl.reindex # actually send solr document to the solr server
+purl.resource.indexer.config.solr.url # the configured solr server
 ```
 
 ## Contributing
