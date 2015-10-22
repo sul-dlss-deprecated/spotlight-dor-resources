@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -16,32 +16,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 3d4b8631-a965-4069-a1d6-a61a579b2781
       X-Runtime:
-      - '0.015996'
+      - '0.017542'
+      X-Request-Id:
+      - f2c6d7e5-e0e8-4a08-bcee-442ca19d5d05
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -122,10 +124,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -139,32 +141,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - c99404b0-1981-42ba-8aed-7a999d04af23
       X-Runtime:
-      - '0.012714'
+      - '0.005941'
+      X-Request-Id:
+      - e0f5655b-6100-4458-9b64-01c89074ff14
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -245,10 +249,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -262,32 +266,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - df021c81-81dc-4c32-a3d8-73d02b03c25f
       X-Runtime:
-      - '0.011468'
+      - '0.006583'
+      X-Request-Id:
+      - e0253880-e3fa-49a2-8204-25890edf3963
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -368,10 +374,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -385,32 +391,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 28991714-93b1-42c7-8037-7bf256a1d999
       X-Runtime:
-      - '0.012238'
+      - '0.006125'
+      X-Request-Id:
+      - 0709cbc0-ff9d-41aa-a6a6-bd27745d171b
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -491,10 +499,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -508,32 +516,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - df33d0a7-2ac1-4fd2-9ddc-968479a53c1a
       X-Runtime:
-      - '0.011468'
+      - '0.005769'
+      X-Request-Id:
+      - c4e7f3ff-3445-4e4c-b325-d10b6271c827
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -614,10 +624,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -631,32 +641,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 68fc10d9-8a40-48e0-bdca-45ea55ecec0f
       X-Runtime:
-      - '0.012212'
+      - '0.005998'
+      X-Request-Id:
+      - 6cc0d110-020a-4d29-82d2-dcc16204acdc
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -737,10 +749,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.mods
+    uri: https://purl.stanford.edu/bd955gr0721.mods
     body:
       encoding: US-ASCII
       string: ''
@@ -754,32 +766,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:51 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"cf89e27f4af8f279e1667b375675eb77"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - b0804fa4-4d5f-42bb-a6fe-1cd9155f4e2c
       X-Runtime:
-      - '0.011510'
+      - '0.018913'
+      X-Request-Id:
+      - 7d519aab-a7c3-4eae-ab43-580b7703027e
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '2546'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -843,10 +857,10 @@ http_interactions:
         IHJpZ2h0cyByZXNlcnZlZCB1bmxlc3Mgb3RoZXJ3aXNlIGluZGljYXRlZC48
         L2FjY2Vzc0NvbmRpdGlvbj4KPC9tb2RzPgo=
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -860,32 +874,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"411b77341905396dc3e33792b7c3ec1c"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"0b709e63213cb5f138a6653e3cdb6a45"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 4af7dcae-a70f-4e9d-8146-64131b6ca9d3
       X-Runtime:
-      - '0.016868'
+      - '0.006642'
+      X-Request-Id:
+      - df89e7a9-c779-4287-a1d1-2c682d3ff6dc
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Mon, 05 Oct 2015 19:04:10 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '3294'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -966,10 +982,10 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/nt028fd5773.xml
+    uri: https://purl.stanford.edu/nt028fd5773.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -983,32 +999,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"2bd897b313465cfce39d086b05aac828"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"84459dbad6bcefe930a2c847902e4992"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - f175770e-9f09-4de9-9610-629120b6fcbe
       X-Runtime:
-      - '0.015037'
+      - '0.015303'
+      X-Request-Id:
+      - 45ecbda3-9879-4701-9a0c-46e29b6635dc
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Thu, 04 Jun 2015 20:40:31 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '1869'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -1057,10 +1075,10 @@ http_interactions:
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/nt028fd5773.xml
+    uri: https://purl.stanford.edu/nt028fd5773.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1074,32 +1092,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"2bd897b313465cfce39d086b05aac828"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"84459dbad6bcefe930a2c847902e4992"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 925fe187-a8f5-457f-8ef4-a34e7aefa498
       X-Runtime:
-      - '0.009782'
+      - '0.006556'
+      X-Request-Id:
+      - f4d0b3dd-dba0-4841-9cf1-5c78714575d6
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Thu, 04 Jun 2015 20:40:31 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '1869'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -1148,10 +1168,10 @@ http_interactions:
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/td043yv0596.xml
+    uri: https://purl.stanford.edu/td043yv0596.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1165,32 +1185,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"31f4e10d346187a58ff9c8758947b139"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"b024f087f5bd6eeec98ddfbfdc42a8cb"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 5225940c-16e4-4ea0-b057-617e6f928463
       X-Runtime:
-      - '0.014388'
+      - '0.021695'
+      X-Request-Id:
+      - cdc69ff1-3bf0-4004-a4ef-fe150602cdc1
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Thu, 13 Aug 2015 20:35:36 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '2428'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -1251,10 +1273,10 @@ http_interactions:
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/td043yv0596.xml
+    uri: https://purl.stanford.edu/td043yv0596.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1268,32 +1290,34 @@ http_interactions:
   response:
     status:
       code: 200
-      message: ''
+      message: OK
     headers:
       Date:
-      - Tue, 20 Oct 2015 23:25:15 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
-      - Apache/2.2.15 (Red Hat)
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.19
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"31f4e10d346187a58ff9c8758947b139"'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
-      Etag:
-      - W/"b024f087f5bd6eeec98ddfbfdc42a8cb"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 38d5184a-fa8a-410e-98a7-056166041d64
       X-Runtime:
-      - '0.113208'
+      - '0.006122'
+      X-Request-Id:
+      - 45dcc01b-c22a-439c-b10c-308e5e60cb49
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Last-Modified:
+      - Thu, 13 Aug 2015 20:35:36 GMT
       Status:
-      - '200'
-      Content-Length:
-      - '2428'
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - application/xml; charset=utf-8
     body:
@@ -1354,5 +1378,5 @@ http_interactions:
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 recorded_with: VCR 2.9.3

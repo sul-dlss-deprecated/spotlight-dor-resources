@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -33,9 +33,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006290'
+      - '0.008179'
       X-Request-Id:
-      - 1d6dce47-df2d-40fe-a911-4b55c482b5b1
+      - c84ab552-d382-4185-9bb9-4de29d62eca3
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -181,7 +181,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -201,7 +201,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -215,9 +215,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.004446'
+      - '0.006464'
       X-Request-Id:
-      - 94bf7a7b-0c2f-48fc-b404-70c21d429c66
+      - a96a9cf6-481b-48cc-95d5-1d901a8fd29a
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -363,7 +363,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -383,7 +383,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -397,9 +397,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005153'
+      - '0.006946'
       X-Request-Id:
-      - fbf088a5-59ad-4872-9e8d-2b3829568a23
+      - 833df547-6b97-4f6e-be14-38178f53f651
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -545,7 +545,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -565,7 +565,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -579,9 +579,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.003729'
+      - '0.006998'
       X-Request-Id:
-      - 20f5969d-500c-4e92-b0ca-97c1ffdb86be
+      - d27972db-19ad-4a6e-8139-f6a3c999e7b1
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -727,7 +727,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -747,7 +747,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -761,9 +761,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006192'
+      - '0.006453'
       X-Request-Id:
-      - 12570c18-deb2-4e17-af86-60a73caa7386
+      - 7676b6d9-cf18-408d-814e-5de0fc781697
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -909,7 +909,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -929,7 +929,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:50 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -943,9 +943,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005913'
+      - '0.005959'
       X-Request-Id:
-      - a8d5cd95-bd34-4b80-a5cc-e6fcd9e9a48d
+      - 9e2e23d8-7f4a-4aa8-8029-21b321feaf60
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1091,7 +1091,7 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:50 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.mods
@@ -1111,7 +1111,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Thu, 22 Oct 2015 23:20:52 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1125,9 +1125,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.007588'
+      - '0.007473'
       X-Request-Id:
-      - 2b7aeafc-541f-4135-a52a-d9a9d383e5b1
+      - ae297563-eed7-4a50-92d2-4122925ec4a2
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1204,7 +1204,7 @@ http_interactions:
           <accessCondition type="useAndReproduction">The materials are open for research use and may be used freely for non-commercial purposes with an attribution. For commercial permission requests, please contact the Stanford University Archives (universityarchives@stanford.edu).</accessCondition>
         </mods>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:53 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/vw282gv1740.xml
@@ -1224,7 +1224,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Thu, 22 Oct 2015 23:20:53 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1238,9 +1238,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005401'
+      - '0.006271'
       X-Request-Id:
-      - d45e2d16-d09b-4a7f-bb55-f1d745f7c815
+      - 5d4e360c-efe6-42e8-94f4-1e30433d0469
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1386,217 +1386,5 @@ http_interactions:
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
-- request:
-    method: get
-    uri: https://purl.stanford.edu/ms016pb9280.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
-      Server:
-      - Apache/2.2.15 (CentOS)
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      Etag:
-      - '"6312ae6c27a3934395aedbfe2b2c786b"'
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Runtime:
-      - '0.006938'
-      X-Request-Id:
-      - c53e5729-0108-4af2-a508-07636726e2fe
-      X-Powered-By:
-      - Phusion Passenger 5.0.16
-      Last-Modified:
-      - Tue, 12 May 2015 02:23:49 GMT
-      Status:
-      - 200 OK
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:ms016pb9280" published="2015-05-11T19:23:48-07:00">
-          <identityMetadata>
-            <objectId>druid:ms016pb9280</objectId>
-            <objectCreator>DOR</objectCreator>
-            <objectLabel>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</objectLabel>
-            <objectType>collection</objectType>
-            <adminPolicy>druid:ww057vk7675</adminPolicy>
-            <otherId name="catkey">4085637</otherId>
-            <otherId name="uuid">1b73755c-b131-11e3-888e-0050569b3c3c</otherId>
-            <tag>Remediated By : 4.20.0</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with  the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Public Services Librarian of the Dept. of Special Collections (http://library.stanford.edu/spc).</human>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:ms016pb9280">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</dc:title>
-            <dc:contributor>Feigenbaum, Edward A.</dc:contributor>
-            <dc:type>Collection</dc:type>
-            <dc:type>Phonotapes.</dc:type>
-            <dc:type>Video recordings</dc:type>
-            <dc:date>1950-2007</dc:date>
-            <dc:language>eng</dc:language>
-            <dc:format>86 linear feet and 89,702.3 megabytes</dc:format>
-            <dc:description>Collection primarily concerns his work in artificial intelligence at Stanford University and includes administrative files, correspondence, project files, trip files, proposals, reports, reprints, Artificial Intelligence Lab memos, audio tapes, video tapes, and files on computer programs, mainly DENDRAL, MOLGEN, ARPA, EPAM, and SUMEX. Also includes manuscript and published editions of his work COMPUTERS AND THOUGHT.</dc:description>
-            <dc:description type="biographical/historical">Computer scientist. Feigenbaum received his B.S., 1956, and his Ph.D., 1959, in electrical engineering from Carnegie Institute of Technology. He completed a Fulbright Fellowship at the National Physics Laboratory and in 1960 went to the University of California, Berkeley, to teach in the School of Business Administration. He joined the Stanford faculty in 1965 in the Dept. of Computer Science; he served as Director of the Stanford Computation Center from 1965 to 1968 and as chairman of the Department from 1976 to 1981. Feigenbaum is a leading national figure in artificial intelligence and has developed computer resources for interactive research between medical and scientific collaborators on a national and global scale.</dc:description>
-            <dc:description type="ownership">Gift of Edward A. Feigenbaum.</dc:description>
-            <dc:subject>Feigenbaum, Edward A</dc:subject>
-            <dc:subject>FacultyStanford University. Computer Science Department</dc:subject>
-            <dc:subject>ARPANET (Computer network)</dc:subject>
-            <dc:subject>Artificial intelligence</dc:subject>
-            <dc:subject>Computer programs</dc:subject>
-            <dc:subject>Expert systems (Computer science)</dc:subject>
-            <dc:identifier>http://www.oac.cdlib.org/findaid/ark:/13030/kt500039hc/</dc:identifier>
-            <dc:identifier>https://saltworks.stanford.edu/</dc:identifier>
-          </oai_dc:dc>
-          <ReleaseData/>
-        </publicObject>
-    http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
-- request:
-    method: get
-    uri: https://purl.stanford.edu/ms016pb9280.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
-      Server:
-      - Apache/2.2.15 (CentOS)
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      Etag:
-      - '"6312ae6c27a3934395aedbfe2b2c786b"'
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Runtime:
-      - '0.005560'
-      X-Request-Id:
-      - 17f2219e-cb84-4b22-9db6-f2b4315f5da9
-      X-Powered-By:
-      - Phusion Passenger 5.0.16
-      Last-Modified:
-      - Tue, 12 May 2015 02:23:49 GMT
-      Status:
-      - 200 OK
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:ms016pb9280" published="2015-05-11T19:23:48-07:00">
-          <identityMetadata>
-            <objectId>druid:ms016pb9280</objectId>
-            <objectCreator>DOR</objectCreator>
-            <objectLabel>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</objectLabel>
-            <objectType>collection</objectType>
-            <adminPolicy>druid:ww057vk7675</adminPolicy>
-            <otherId name="catkey">4085637</otherId>
-            <otherId name="uuid">1b73755c-b131-11e3-888e-0050569b3c3c</otherId>
-            <tag>Remediated By : 4.20.0</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with  the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Public Services Librarian of the Dept. of Special Collections (http://library.stanford.edu/spc).</human>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:ms016pb9280">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</dc:title>
-            <dc:contributor>Feigenbaum, Edward A.</dc:contributor>
-            <dc:type>Collection</dc:type>
-            <dc:type>Phonotapes.</dc:type>
-            <dc:type>Video recordings</dc:type>
-            <dc:date>1950-2007</dc:date>
-            <dc:language>eng</dc:language>
-            <dc:format>86 linear feet and 89,702.3 megabytes</dc:format>
-            <dc:description>Collection primarily concerns his work in artificial intelligence at Stanford University and includes administrative files, correspondence, project files, trip files, proposals, reports, reprints, Artificial Intelligence Lab memos, audio tapes, video tapes, and files on computer programs, mainly DENDRAL, MOLGEN, ARPA, EPAM, and SUMEX. Also includes manuscript and published editions of his work COMPUTERS AND THOUGHT.</dc:description>
-            <dc:description type="biographical/historical">Computer scientist. Feigenbaum received his B.S., 1956, and his Ph.D., 1959, in electrical engineering from Carnegie Institute of Technology. He completed a Fulbright Fellowship at the National Physics Laboratory and in 1960 went to the University of California, Berkeley, to teach in the School of Business Administration. He joined the Stanford faculty in 1965 in the Dept. of Computer Science; he served as Director of the Stanford Computation Center from 1965 to 1968 and as chairman of the Department from 1976 to 1981. Feigenbaum is a leading national figure in artificial intelligence and has developed computer resources for interactive research between medical and scientific collaborators on a national and global scale.</dc:description>
-            <dc:description type="ownership">Gift of Edward A. Feigenbaum.</dc:description>
-            <dc:subject>Feigenbaum, Edward A</dc:subject>
-            <dc:subject>FacultyStanford University. Computer Science Department</dc:subject>
-            <dc:subject>ARPANET (Computer network)</dc:subject>
-            <dc:subject>Artificial intelligence</dc:subject>
-            <dc:subject>Computer programs</dc:subject>
-            <dc:subject>Expert systems (Computer science)</dc:subject>
-            <dc:identifier>http://www.oac.cdlib.org/findaid/ark:/13030/kt500039hc/</dc:identifier>
-            <dc:identifier>https://saltworks.stanford.edu/</dc:identifier>
-          </oai_dc:dc>
-          <ReleaseData/>
-        </publicObject>
-    http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Thu, 22 Oct 2015 23:20:53 GMT
 recorded_with: VCR 2.9.3

@@ -35,8 +35,9 @@ public_xml=purl.resource.public_xml # nokogiri doc with all public XML
 mods=purl.resource.mods # nokogiri doc with just the MODs
 smods_rec=purl.resource.smods_rec # a Stanford::Mods::Record Object (which inherits from the MODS gem)
 
-purl.reindex # actually send solr document to the solr server
-purl.resource.indexer.config.solr.url # the configured solr server
+purl.resource.indexer.config.solr.url # the configured solr server (should be localhost in development)
+purl.save # save and index to solr
+purl.reindex # reindex once saved the first time
 ```
 
 ## Contributing
