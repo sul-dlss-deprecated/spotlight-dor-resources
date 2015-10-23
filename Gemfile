@@ -3,20 +3,20 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in spotlight-dor-resources.gemspec
 gemspec
 
+# sul-dlss gems: get latest versions from master, rather than released gems
 gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer'
 gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer"
 gem "harvestdor", github: "sul-dlss/harvestdor"
 gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
 
 group :test do
-  # Peg simplecov to < 0.8 until this is resolved:
-  # https://github.com/colszowka/simplecov/issues/281
   gem 'simplecov', '~> 0.10', require: false
   gem 'coveralls', require: false
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
 end
 
+# the below comes from engine_cart, a gem used to test this Rails engine gem in the context of a Rails app
 file = File.expand_path("Gemfile", ENV['ENGINE_CART_DESTINATION'] || ENV['RAILS_ROOT'] || File.expand_path("../spec/internal", __FILE__))
 if File.exist?(file)
   puts "Loading #{file} ..." if $DEBUG # `ruby -d` or `bundle -v`
