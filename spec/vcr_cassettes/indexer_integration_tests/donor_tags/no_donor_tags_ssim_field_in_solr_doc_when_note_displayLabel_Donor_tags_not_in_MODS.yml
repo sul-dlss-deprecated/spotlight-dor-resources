@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -33,9 +33,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.017542'
+      - '0.024460'
       X-Request-Id:
-      - f2c6d7e5-e0e8-4a08-bcee-442ca19d5d05
+      - bfdfcbb2-fd73-4b44-bc2f-2fb022746213
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -124,7 +124,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:39 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -144,7 +144,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -158,9 +158,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005941'
+      - '0.006794'
       X-Request-Id:
-      - e0f5655b-6100-4458-9b64-01c89074ff14
+      - c87c2e37-088a-45b3-a303-efa0dc8d053b
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -249,7 +249,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:39 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -269,7 +269,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -283,9 +283,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006583'
+      - '0.007774'
       X-Request-Id:
-      - e0253880-e3fa-49a2-8204-25890edf3963
+      - 3399b5a6-4443-4e8d-9279-241b33784a3b
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -374,7 +374,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:39 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -394,7 +394,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -408,9 +408,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006125'
+      - '0.017004'
       X-Request-Id:
-      - 0709cbc0-ff9d-41aa-a6a6-bd27745d171b
+      - fbd328aa-9b9c-43a7-aa8f-376d688bdb9d
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -499,7 +499,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -519,7 +519,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -533,9 +533,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005769'
+      - '0.006056'
       X-Request-Id:
-      - c4e7f3ff-3445-4e4c-b325-d10b6271c827
+      - 790accf5-8577-4214-8f32-53f86094b23c
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -624,7 +624,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -644,7 +644,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:39 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -658,9 +658,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005998'
+      - '0.006119'
       X-Request-Id:
-      - 6cc0d110-020a-4d29-82d2-dcc16204acdc
+      - 47b627ce-5c44-4e11-a971-6d95c6d9e1bd
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -749,7 +749,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.mods
@@ -769,7 +769,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:51 GMT
+      - Fri, 23 Oct 2015 22:21:40 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -783,9 +783,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.018913'
+      - '0.023058'
       X-Request-Id:
-      - 7d519aab-a7c3-4eae-ab43-580b7703027e
+      - c3e3e4f9-013f-4d3b-bdba-a73c3beed599
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -857,7 +857,7 @@ http_interactions:
         IHJpZ2h0cyByZXNlcnZlZCB1bmxlc3Mgb3RoZXJ3aXNlIGluZGljYXRlZC48
         L2FjY2Vzc0NvbmRpdGlvbj4KPC9tb2RzPgo=
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:51 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/bd955gr0721.xml
@@ -877,7 +877,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:52 GMT
+      - Fri, 23 Oct 2015 22:21:40 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -891,9 +891,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006642'
+      - '0.005774'
       X-Request-Id:
-      - df89e7a9-c779-4287-a1d1-2c682d3ff6dc
+      - ef40acfd-d2a3-48aa-a4de-abc41d53f567
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -982,7 +982,7 @@ http_interactions:
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/nt028fd5773.xml
@@ -1002,7 +1002,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:52 GMT
+      - Fri, 23 Oct 2015 22:21:40 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1016,9 +1016,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.015303'
+      - '0.026431'
       X-Request-Id:
-      - 45ecbda3-9879-4701-9a0c-46e29b6635dc
+      - 965d04b6-e177-4762-bfef-01811fa2baf9
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1075,7 +1075,7 @@ http_interactions:
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:40 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/nt028fd5773.xml
@@ -1095,7 +1095,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:52 GMT
+      - Fri, 23 Oct 2015 22:21:40 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1109,9 +1109,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006556'
+      - '0.008778'
       X-Request-Id:
-      - f4d0b3dd-dba0-4841-9cf1-5c78714575d6
+      - 15d107a4-8038-416c-8df1-420b6a5188ca
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1168,7 +1168,7 @@ http_interactions:
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:41 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/td043yv0596.xml
@@ -1188,7 +1188,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:52 GMT
+      - Fri, 23 Oct 2015 22:21:40 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1202,9 +1202,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.021695'
+      - '0.026312'
       X-Request-Id:
-      - cdc69ff1-3bf0-4004-a4ef-fe150602cdc1
+      - 4e420265-aa09-4b2c-8665-46b08a94faff
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1273,7 +1273,7 @@ http_interactions:
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:41 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/td043yv0596.xml
@@ -1293,7 +1293,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:52 GMT
+      - Fri, 23 Oct 2015 22:21:41 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -1307,9 +1307,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006122'
+      - '0.006277'
       X-Request-Id:
-      - 45dcc01b-c22a-439c-b10c-308e5e60cb49
+      - f3c8e8b9-01c5-41d4-9bb9-507d832d01ec
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Last-Modified:
@@ -1378,5 +1378,5 @@ http_interactions:
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:52 GMT
+  recorded_at: Fri, 23 Oct 2015 22:21:41 GMT
 recorded_with: VCR 2.9.3
