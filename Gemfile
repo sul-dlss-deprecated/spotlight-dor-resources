@@ -14,6 +14,8 @@ group :test do
   gem 'coveralls', require: false
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
+  gem 'pry', require: false
+  gem 'pry-byebug', require: false
 end
 
 # the below comes from engine_cart, a gem used to test this Rails engine gem in the context of a Rails app
