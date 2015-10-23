@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Spotlight::Resources::Purl do
-  
+
   let :exhibit do
     double(solr_data: { }, blacklight_config: Blacklight::Configuration.new)
   end
@@ -59,6 +59,7 @@ describe Spotlight::Resources::Purl do
     end
 
     it "should add a document to solr" do
+      allow_any_instance_of(SolrDocument).to receive(:to_solr).and_return({})
       expect(subject).to receive(:update_index)
       expect(subject).to receive(:update_index_time!)
       subject.reindex
@@ -68,18 +69,19 @@ describe Spotlight::Resources::Purl do
   describe "#to_solr" do
     before do
       allow(Spotlight::Dor::Resources.indexer).to receive(:solr_document)
+      allow_any_instance_of(SolrDocument).to receive(:to_solr).and_return({})
     end
     context "with a collection" do
       before do
         allow(subject.resource).to receive(:collection?).and_return(true)
       end
-      
+
       it "should provide a solr document for the collection" do
         allow(subject.resource).to receive(:items).and_return([])
         expect(Spotlight::Dor::Resources.indexer).to receive(:solr_document).with(subject.resource).and_return({upstream: true})
         expect(subject.to_solr.first).to include :upstream, :spotlight_resource_id_ssim, :spotlight_resource_type_ssim
       end
-      
+
       it "should provide a solr document for the items too" do
         item = double
         allow(subject.resource).to receive(:items).and_return([item])
@@ -100,12 +102,12 @@ describe Spotlight::Resources::Purl do
         expect(Spotlight::Dor::Resources.indexer).to receive(:solr_document).with(subject.resource).and_return({upstream: true})
         expect(subject.to_solr.first).to include :upstream, :spotlight_resource_id_ssim, :spotlight_resource_type_ssim
       end
-      
+
       it "should index outside the context of an exhibit" do
         allow(subject).to receive(:exhibit).and_return(nil)
         expect(Spotlight::Dor::Resources.indexer).to receive(:solr_document).with(subject.resource).and_return({upstream: true})
         expect(subject.to_solr.first).to include :upstream, :spotlight_resource_id_ssim, :spotlight_resource_type_ssim
-      end    
+      end
     end
   end
 end

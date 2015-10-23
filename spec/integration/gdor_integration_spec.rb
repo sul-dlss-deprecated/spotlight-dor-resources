@@ -5,6 +5,10 @@ describe "gdor indexing integration test", :vcr do
     double(solr_data: { }, blacklight_config: Blacklight::Configuration.new)
   end
 
+  before do
+    allow_any_instance_of(SolrDocument).to receive(:to_solr).and_return({})
+  end
+
   subject do
     r = Spotlight::Resources::Purl.new(url: "http://purl.stanford.edu/xf680rd3068")
     allow(r).to receive(:to_global_id).and_return('x')

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -105,7 +105,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -124,11 +124,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -231,7 +231,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -250,11 +250,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -357,7 +357,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -376,11 +376,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -483,7 +483,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -502,11 +502,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -609,7 +609,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -628,11 +628,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -735,7 +735,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -754,11 +754,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.mods
+    uri: https://purl.stanford.edu/xf680rd3068.mods
     body:
       encoding: US-ASCII
       string: ''
@@ -851,16 +851,16 @@ http_interactions:
             <titleInfo>
               <title>Stanford University Libraries Special Collections, Manuscripts Division</title>
             </titleInfo>
-            <identifier type="uri">http://purl.stanford.edu/sk373nx0013</identifier>
+            <identifier type="uri">https://purl.stanford.edu/sk373nx0013</identifier>
             <typeOfResource collection="yes"/>
           </relatedItem>
           <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</accessCondition>
         </mods>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/xf680rd3068.xml
+    uri: https://purl.stanford.edu/xf680rd3068.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -963,7 +963,7 @@ http_interactions:
               <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
             <dc:date>1200-1299</dc:date>
             <dc:date>13th century</dc:date>
@@ -982,6 +982,6 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 recorded_with: VCR 2.9.3

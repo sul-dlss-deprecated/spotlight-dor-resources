@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -155,7 +155,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -178,11 +178,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -335,7 +335,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -358,11 +358,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -515,7 +515,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -538,11 +538,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -695,7 +695,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -718,11 +718,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -875,7 +875,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -898,11 +898,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:16 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1055,7 +1055,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -1078,11 +1078,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.mods
+    uri: https://purl.stanford.edu/vw282gv1740.mods
     body:
       encoding: US-ASCII
       string: ''
@@ -1184,16 +1184,16 @@ http_interactions:
             <titleInfo>
               <title>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</title>
             </titleInfo>
-            <identifier type="uri">http://purl.stanford.edu/ms016pb9280</identifier>
+            <identifier type="uri">https://purl.stanford.edu/ms016pb9280</identifier>
             <typeOfResource collection="yes"/>
           </relatedItem>
           <accessCondition type="useAndReproduction">The materials are open for research use and may be used freely for non-commercial purposes with an attribution. For commercial permission requests, please contact the Stanford University Archives (universityarchives@stanford.edu).</accessCondition>
         </mods>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/vw282gv1740.xml
+    uri: https://purl.stanford.edu/vw282gv1740.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1346,7 +1346,7 @@ http_interactions:
         \   <rdf:Description rdf:about=\"info:fedora/druid:vw282gv1740\">\n      <fedora:isMemberOf
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n      <fedora:isMemberOfCollection
         rdf:resource=\"info:fedora/druid:ms016pb9280\"/>\n    </rdf:Description>\n
-        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
+        \ </rdf:RDF>\n  <oai_dc:dc xmlns:dc=\"https://purl.org/dc/elements/1.1/\" xmlns:srw_dc=\"info:srw/schema/1/dc-schema\"
         xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
         xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n
         \   <dc:type>Text</dc:type>\n    <dc:type>manuscripts for publication</dc:type>\n
@@ -1369,11 +1369,11 @@ http_interactions:
         displayLabel=\"Donor tags\">Stanford Computer Science Department</dc:description>\n
         \   <dc:relation type=\"collection\">Edward A. Feigenbaum papers, 1950-2007
         (inclusive)</dc:relation>\n  </oai_dc:dc>\n</publicObject>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/ms016pb9280.xml
+    uri: https://purl.stanford.edu/ms016pb9280.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1450,7 +1450,7 @@ http_interactions:
             <rdf:Description rdf:about="info:fedora/druid:ms016pb9280">
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</dc:title>
             <dc:contributor>Feigenbaum, Edward A.</dc:contributor>
             <dc:type>Collection</dc:type>
@@ -1473,11 +1473,11 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/ms016pb9280.xml
+    uri: https://purl.stanford.edu/ms016pb9280.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1554,7 +1554,7 @@ http_interactions:
             <rdf:Description rdf:about="info:fedora/druid:ms016pb9280">
             </rdf:Description>
           </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <oai_dc:dc xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
             <dc:title>Edward A. Feigenbaum papers, 1950-2007 (inclusive)</dc:title>
             <dc:contributor>Feigenbaum, Edward A.</dc:contributor>
             <dc:type>Collection</dc:type>
@@ -1577,6 +1577,6 @@ http_interactions:
           </oai_dc:dc>
           <ReleaseData/>
         </publicObject>
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 recorded_with: VCR 2.9.3

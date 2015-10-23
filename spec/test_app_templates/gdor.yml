@@ -1,9 +1,9 @@
 harvestdor:
   # log_dir:  directory for log file  (default logs, relative to harvestdor gem path)
-  log_dir: spec/internal/log/gdor_logs  
+  log_dir: spec/internal/log/gdor_logs
 
   # log_name: name of log file  (default: harvestdor.log)
   log_name: gdor.log
 
   # purl: url for the DOR purl server (used to get ContentMetadata, etc.)
-  purl: http://purl.stanford.edu
+  purl: https://purl.stanford.edu

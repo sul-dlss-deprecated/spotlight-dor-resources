@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -121,11 +121,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -244,11 +244,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -367,11 +367,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -490,11 +490,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -613,11 +613,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -736,11 +736,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.mods
+    uri: https://purl.stanford.edu/bd955gr0721.mods
     body:
       encoding: US-ASCII
       string: ''
@@ -842,11 +842,11 @@ http_interactions:
         cyBJbnN0aXR1dGUgZm9yIEF1dG9tb3RpdmUgUmVzZWFyY2gsIEluYy4gQWxs
         IHJpZ2h0cyByZXNlcnZlZCB1bmxlc3Mgb3RoZXJ3aXNlIGluZGljYXRlZC48
         L2FjY2Vzc0NvbmRpdGlvbj4KPC9tb2RzPgo=
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/bd955gr0721.xml
+    uri: https://purl.stanford.edu/bd955gr0721.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -965,11 +965,11 @@ http_interactions:
         d2FyZCBFdmVzIFBob3RvZ3JhcGggQ29sbGVjdGlvbiBvZiBUaGUgUmV2cyBJ
         bnN0aXR1dGU8L2RjOnJlbGF0aW9uPgogIDwvb2FpX2RjOmRjPgo8L3B1Ymxp
         Y09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:17 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/nt028fd5773.xml
+    uri: https://purl.stanford.edu/nt028fd5773.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1056,11 +1056,11 @@ http_interactions:
         cnNpdHkgTGlicmFyaWVzPC9kYzpwdWJsaXNoZXI+CiAgICA8ZGM6bGFuZ3Vh
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/nt028fd5773.xml
+    uri: https://purl.stanford.edu/nt028fd5773.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1147,11 +1147,11 @@ http_interactions:
         cnNpdHkgTGlicmFyaWVzPC9kYzpwdWJsaXNoZXI+CiAgICA8ZGM6bGFuZ3Vh
         Z2U+ZW5nPC9kYzpsYW5ndWFnZT4KICA8L29haV9kYzpkYz4KICA8UmVsZWFz
         ZURhdGEvPgo8L3B1YmxpY09iamVjdD4K
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/td043yv0596.xml
+    uri: https://purl.stanford.edu/td043yv0596.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1250,11 +1250,11 @@ http_interactions:
         dWFnZT5lbmc8L2RjOmxhbmd1YWdlPgogICAgPGRjOnJlbGF0aW9uIHR5cGU9
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
 - request:
     method: get
-    uri: http://purl.stanford.edu/td043yv0596.xml
+    uri: https://purl.stanford.edu/td043yv0596.xml
     body:
       encoding: US-ASCII
       string: ''
@@ -1353,6 +1353,6 @@ http_interactions:
         dWFnZT5lbmc8L2RjOmxhbmd1YWdlPgogICAgPGRjOnJlbGF0aW9uIHR5cGU9
         ImNvbGxlY3Rpb24iPlRoZSBSZXZzIEluc3RpdHV0ZcKuIEFyY2hpdmVzPC9k
         YzpyZWxhdGlvbj4KICA8L29haV9kYzpkYz4KPC9wdWJsaWNPYmplY3Q+Cg==
-    http_version: 
+    http_version:
   recorded_at: Tue, 20 Oct 2015 23:25:18 GMT
 recorded_with: VCR 2.9.3

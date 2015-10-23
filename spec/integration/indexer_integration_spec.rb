@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe 'indexer integration tests', :vcr do
+
   it 'indexes donor tags when they exist' do
     r = Spotlight::Resources::Purl.new(url: 'http://purl.stanford.edu/vw282gv1740') # Feigenbaum PURL with donor tags
     solr_doc = r.to_solr.first
