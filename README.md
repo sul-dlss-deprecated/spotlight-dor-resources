@@ -20,9 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-Within a Spotlight application with `spotlight-dor-resources` installed, you could index a set of records the ["harvestdor"](https://github.com/sul-dlss/harvestdor) or ["harvestdor-indexer"](https://github.com/sul-dlss/harvestdor-indexer) way.
+Within a Spotlight application with `spotlight-dor-resources` installed, you could index a set of records the ["gdor-indexer"](https://github.com/sul-dlss/gdor-indexer) way.
 
-For access to a Rails console with the gem loaded up for testing purposes, you can use the engine-cart generated app:
+Note that Spotlight:
+
+* is a Rails engine and needs to be used in the context of a Rails application. We use [engine_cart](https://github.com/cbeer/engine_cart) to create an internal test application at spec/internal.
+* uses Solr as part of its integration tests. We use [jettywrapper](https://github.com/projecthydra/jettywrapper) to manage the Solr instance used for development and test.
+
+Our `$ rake ci` task utilizes Solr and the testing rails app, with Spotlight installed, automatically.
+
+For access to a Rails console with the gem loaded up for testing purposes, you can use an engine-cart generated Spotlight app.
+
+### First time only configuration for local testing
+
+    $ bundle
+    $ bundle exec rake:ci
+
+This will download a test jetty instance (to run Solr), generate a testing app at ```spec/internal``` and run the tests.
+
+### Indexing with the generated test app
 
     $ cd spec/internal
 
