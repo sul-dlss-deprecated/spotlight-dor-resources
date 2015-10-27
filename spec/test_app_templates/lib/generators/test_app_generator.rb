@@ -5,7 +5,7 @@ class TestAppGenerator < Rails::Generators::Base
 
   def add_gems
     gem 'blacklight', '~> 5.1'
-    gem "blacklight-spotlight", github: 'sul-dlss/spotlight'
+    gem "blacklight-spotlight"
     Bundler.with_clean_env do
       run "bundle install"
     end
