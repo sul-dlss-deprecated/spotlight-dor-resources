@@ -4,9 +4,6 @@ source 'https://rubygems.org'
 gemspec
 
 # sul-dlss gems: get latest versions from master, rather than released gems
-gem 'gdor-indexer', github: 'sul-dlss/gdor-indexer'
-gem 'harvestdor-indexer', github: "sul-dlss/harvestdor-indexer"
-gem "harvestdor", github: "sul-dlss/harvestdor"
 gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
 
 group :test do
