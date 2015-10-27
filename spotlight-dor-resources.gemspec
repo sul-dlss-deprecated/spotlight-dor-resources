@@ -18,9 +18,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "faraday"
-  spec.add_dependency 'harvestdor'
   spec.add_dependency 'solrizer'
-  spec.add_dependency 'harvestdor-indexer'
+  spec.add_dependency 'gdor-indexer'
   spec.add_dependency "rails"
   spec.add_dependency "blacklight-spotlight", "~> 0.2"
   spec.add_development_dependency "bundler", "~> 1.5"

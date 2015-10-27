@@ -4,15 +4,15 @@ class TestAppGenerator < Rails::Generators::Base
   source_root "../../spec/test_app_templates"
 
   def add_gems
-    gem 'blacklight', '~> 5.1'     
-    gem "blacklight-spotlight"
+    gem 'blacklight', '~> 5.1'
+    gem "blacklight-spotlight", github: 'sul-dlss/spotlight'
     Bundler.with_clean_env do
       run "bundle install"
     end
   end
 
   def run_blacklight_generator
-    say_status("warning", "GENERATING BL", :yellow)  
+    say_status("warning", "GENERATING BL", :yellow)
     generate 'blacklight:install', '--devise --jettywrapper'
   end
 
