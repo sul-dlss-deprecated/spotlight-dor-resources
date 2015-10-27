@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in spotlight-dor-resources.gemspec
 gemspec
 
-# sul-dlss gems: get latest versions from master, rather than released gems
-gem 'blacklight-spotlight', github: 'sul-dlss/spotlight'
-
 group :test do
   gem 'simplecov', '~> 0.10', require: false
   gem 'coveralls', require: false
