@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Beer"]
   spec.email         = ["cabeer@stanford.edu"]
   spec.summary       = "Spotlight resource indexer for DOR resources."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sul-dlss/spotlight-dor-resources"
   spec.license       = "Apache 2"
 
   spec.files         = `git ls-files -z`.split("\x0")
