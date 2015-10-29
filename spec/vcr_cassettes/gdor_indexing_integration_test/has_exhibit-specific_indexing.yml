@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:04 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -33,11 +33,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006401'
+      - '0.005068'
       X-Request-Id:
-      - 87e211ab-e75d-4327-9574-4efc202e6685
+      - b89cc25e-6249-4ce9-840c-f29ce64e1c7c
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -127,7 +129,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:04 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -147,7 +149,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:04 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -161,11 +163,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005374'
+      - '0.007729'
       X-Request-Id:
-      - 7b33338e-6c6e-4925-80cc-3d9c0665fd5d
+      - 39532e33-2d65-42fd-80b8-de96bbcdb15e
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -255,7 +259,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:04 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -275,7 +279,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:04 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -289,11 +293,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006876'
+      - '0.006052'
       X-Request-Id:
-      - 4dff83c1-cee2-4e5f-b17d-f96fc4aaa0de
+      - 5f6a08d1-48df-407f-af2a-eaf89b03a173
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -383,7 +389,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:04 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -403,7 +409,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:04 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -417,11 +423,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.007092'
+      - '0.005162'
       X-Request-Id:
-      - b4e39226-41e8-46d1-8c31-70cf55afa838
+      - da074914-8282-4fa6-bfbf-e325ef4c9657
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -511,7 +519,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:04 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -531,7 +539,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:04 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -545,11 +553,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005423'
+      - '0.007076'
       X-Request-Id:
-      - bc7c0b44-6a40-4197-a9ec-3bdaf58ea971
+      - fdd2bf53-c3b3-4432-a5fb-59d4e102cd81
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -639,7 +649,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:05 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -659,7 +669,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:05 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -673,11 +683,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006771'
+      - '0.007482'
       X-Request-Id:
-      - 5e485f5b-0fe5-4e30-bba3-0d9752163ebf
+      - f130675a-1503-4e4f-b370-de4a6c4838ce
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -767,7 +779,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:05 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.mods
@@ -787,7 +799,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:05 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -801,11 +813,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006134'
+      - '0.007463'
       X-Request-Id:
-      - 31a19bbf-ba33-4cee-9648-557cb420eb2d
+      - 01c1cbb3-c354-40d4-a047-a45f86f9a021
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -871,7 +885,7 @@ http_interactions:
           <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</accessCondition>
         </mods>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:05 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -891,7 +905,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:49 GMT
+      - Fri, 30 Oct 2015 14:06:05 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -905,11 +919,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006311'
+      - '0.010544'
       X-Request-Id:
-      - 78752f81-82c5-43d4-84bd-b79ddd6c46e0
+      - 65a77578-c70a-4e1d-b68b-8ce62d5c9394
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -999,5 +1015,5 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:49 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:05 GMT
 recorded_with: VCR 2.9.3

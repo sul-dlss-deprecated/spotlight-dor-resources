@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:47 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -33,11 +33,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.008189'
+      - '0.008905'
       X-Request-Id:
-      - 3886ebbf-a159-4ad1-a7a8-edf8b548de9e
+      - 7a09520e-194e-4811-a9f0-75896c0ece64
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -127,7 +129,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:47 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -147,7 +149,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:47 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -161,11 +163,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005457'
+      - '0.007248'
       X-Request-Id:
-      - ed77fbb6-ef18-474a-893b-045bc43591e9
+      - 5a45eae4-2a47-421e-8d40-9ee38e939c0b
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -255,7 +259,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:47 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -275,7 +279,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:47 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -289,11 +293,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.005407'
+      - '0.007503'
       X-Request-Id:
-      - bc44490a-101c-4247-876f-b80df53fb5d7
+      - d4babdab-c1de-4fd8-84a4-3dc5fafb026b
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -383,7 +389,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:47 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -403,7 +409,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:47 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -417,11 +423,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.008518'
+      - '0.003909'
       X-Request-Id:
-      - 95c37214-324b-49c0-b8e7-d109a7435b33
+      - f8ccafdb-1e64-4faa-9389-7ce35e122c62
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -511,7 +519,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -531,7 +539,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -545,11 +553,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.012228'
+      - '0.006446'
       X-Request-Id:
-      - f4b1f4ba-fca5-4ea5-b29d-81193bca64f3
+      - eb1b010c-3e0d-4a3a-8124-979c78330f66
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -639,7 +649,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -659,7 +669,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
+      - Fri, 30 Oct 2015 14:06:01 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -673,11 +683,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.008612'
+      - '0.006284'
       X-Request-Id:
-      - bb99b643-39c7-4130-a2e9-d116d55ccb36
+      - 738e5a55-3a7a-4cc8-9902-13dd3bddea69
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -767,7 +779,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.mods
@@ -787,7 +799,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
+      - Fri, 30 Oct 2015 14:06:02 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -801,11 +813,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.013649'
+      - '0.008189'
       X-Request-Id:
-      - 4f90d1f9-0736-49a5-8cb5-a12dafe045c4
+      - 89365053-34f5-4a34-8007-8625c5e35602
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -871,7 +885,7 @@ http_interactions:
           <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</accessCondition>
         </mods>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:02 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -891,7 +905,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
+      - Fri, 30 Oct 2015 14:06:02 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -905,11 +919,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.007393'
+      - '0.004553'
       X-Request-Id:
-      - e47efe44-0b4c-4809-bc60-6812a52cba2d
+      - a1c27389-068c-499b-b346-9ac67494ecf5
       X-Powered-By:
       - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
       Last-Modified:
       - Fri, 24 Apr 2015 18:45:21 GMT
       Status:
@@ -999,203 +1015,5 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
-- request:
-    method: get
-    uri: https://purl.stanford.edu/sk373nx0013.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
-      Server:
-      - Apache/2.2.15 (CentOS)
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      Etag:
-      - '"9684345167c2ea1d602d52ba03c6c542"'
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Runtime:
-      - '0.022511'
-      X-Request-Id:
-      - 8730beb0-103b-4677-99ab-12f0fc2dbb82
-      X-Powered-By:
-      - Phusion Passenger 5.0.16
-      Last-Modified:
-      - Fri, 24 Apr 2015 18:41:27 GMT
-      Status:
-      - 200 OK
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:sk373nx0013" published="2015-04-24T11:41:25-07:00">
-          <identityMetadata>
-            <objectLabel>Stanford University Libraries Special Collections, Manuscripts Division</objectLabel>
-            <adminPolicy>druid:yg077np2529</adminPolicy>
-            <objectType>collection</objectType>
-            <objectType>set</objectType>
-            <otherId name="uuid">e705512e-6e1a-11e1-aeb1-022c4a818c40</otherId>
-            <objectId>druid:sk373nx0013</objectId>
-            <objectCreator>DOR</objectCreator>
-            <agreementId>druid:xf765cv5573</agreementId>
-            <tag>Remediated By : 4.14.4</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</human>
-            </use>
-            <use>
-              <human type="creativeCommons"/>
-              <machine type="creativeCommons"/>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:sk373nx0013">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Stanford University Libraries Special Collections, Manuscripts Division</dc:title>
-            <dc:description>The Manuscripts Division of the Department of Special Collections at Stanford University Library exists to arrange, describe, preserve, and make available documents of enduring historic value, both as intellectual items and as historical artifacts, to support the research needs of the undergraduates, graduate students, faculty and other scholars at Stanford University and beyond.</dc:description>
-            <dc:creator>Stanford University Libraries, Stanford Digital Repository</dc:creator>
-            <dc:type>Collection</dc:type>
-            <dc:date>2012</dc:date>
-            <dc:publisher>Stanford University Libraries and Academic Information Resources</dc:publisher>
-            <dc:language>eng</dc:language>
-          </oai_dc:dc>
-          <ReleaseData/>
-        </publicObject>
-    http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
-- request:
-    method: get
-    uri: https://purl.stanford.edu/sk373nx0013.xml
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 22 Oct 2015 23:20:48 GMT
-      Server:
-      - Apache/2.2.15 (CentOS)
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      Etag:
-      - '"9684345167c2ea1d602d52ba03c6c542"'
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      X-Runtime:
-      - '0.009746'
-      X-Request-Id:
-      - 46031b73-4e51-4b3e-b9b2-a92e98b3b2ba
-      X-Powered-By:
-      - Phusion Passenger 5.0.16
-      Last-Modified:
-      - Fri, 24 Apr 2015 18:41:27 GMT
-      Status:
-      - 200 OK
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/xml; charset=utf-8
-    body:
-      encoding: UTF-8
-      string: |
-        <?xml version="1.0" encoding="UTF-8"?>
-        <publicObject id="druid:sk373nx0013" published="2015-04-24T11:41:25-07:00">
-          <identityMetadata>
-            <objectLabel>Stanford University Libraries Special Collections, Manuscripts Division</objectLabel>
-            <adminPolicy>druid:yg077np2529</adminPolicy>
-            <objectType>collection</objectType>
-            <objectType>set</objectType>
-            <otherId name="uuid">e705512e-6e1a-11e1-aeb1-022c4a818c40</otherId>
-            <objectId>druid:sk373nx0013</objectId>
-            <objectCreator>DOR</objectCreator>
-            <agreementId>druid:xf765cv5573</agreementId>
-            <tag>Remediated By : 4.14.4</tag>
-          </identityMetadata>
-          <xml/>
-          <rightsMetadata>
-            <access type="discover">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <access type="read">
-              <machine>
-                <world/>
-              </machine>
-            </access>
-            <use>
-              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</human>
-            </use>
-            <use>
-              <human type="creativeCommons"/>
-              <machine type="creativeCommons"/>
-            </use>
-          </rightsMetadata>
-          <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="info:fedora/druid:sk373nx0013">
-            </rdf:Description>
-          </rdf:RDF>
-          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-            <dc:title>Stanford University Libraries Special Collections, Manuscripts Division</dc:title>
-            <dc:description>The Manuscripts Division of the Department of Special Collections at Stanford University Library exists to arrange, describe, preserve, and make available documents of enduring historic value, both as intellectual items and as historical artifacts, to support the research needs of the undergraduates, graduate students, faculty and other scholars at Stanford University and beyond.</dc:description>
-            <dc:creator>Stanford University Libraries, Stanford Digital Repository</dc:creator>
-            <dc:type>Collection</dc:type>
-            <dc:date>2012</dc:date>
-            <dc:publisher>Stanford University Libraries and Academic Information Resources</dc:publisher>
-            <dc:language>eng</dc:language>
-          </oai_dc:dc>
-          <ReleaseData/>
-        </publicObject>
-    http_version: 
-  recorded_at: Thu, 22 Oct 2015 23:20:48 GMT
+  recorded_at: Fri, 30 Oct 2015 14:06:02 GMT
 recorded_with: VCR 2.9.3

@@ -4,9 +4,24 @@ require: rubocop-rspec
 
 AllCops:
   Exclude:
+    - 'Gemfile'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
     - 'spec/internal/**/*'
     - 'spec/test_app_templates/**/*'
+    - 'spec/spec_helper.rb'
+    - 'spec/teaspoon_env.rb'
+    - 'vendor/**/*'
+  RunRailsCops: true
 
-Metrics/ClassLength:
+Metrics/LineLength:
+  Max: 130
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+RSpec/DescribeClass:
   Exclude:
-    - 'lib/spotlight/dor/indexer.rb'
+    - 'spec/integration/*'
