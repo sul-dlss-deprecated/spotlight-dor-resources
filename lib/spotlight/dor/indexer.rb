@@ -4,6 +4,7 @@ require 'solrizer'
 # Base class to harvest from DOR via harvestdor gem
 module Spotlight::Dor
   class Indexer < GDor::Indexer
+    # add contentMetadata fields
     before_index do |sdb, solr_doc|
       Solrizer.insert_field(solr_doc, 'content_metadata_type', sdb.public_xml.xpath("/publicObject/contentMetadata/@type").text, :symbol, :displayable)
 
@@ -24,18 +25,19 @@ module Spotlight::Dor
       end
     end
 
-    # see comment below next to this method about Feigenbaum specific donor tags indexing
-    before_index :add_donor_tags
-
-    before_index :add_genre
-
-    before_index :add_series
-
-    before_index :mods_cartographics_indexing
-
+    # tweak author_sort field from stanford-mods
     before_index do |_sdb, solr_doc|
       solr_doc[:author_sort] &&= solr_doc[:author_sort].gsub("\uFFFF", "\uFFFD")
     end
+
+    # add fields from raw mods
+    # see comment with add_donor_tags about Feigenbaum specific donor tags data
+    before_index :add_box
+    before_index :add_donor_tags
+    before_index :add_genre
+    before_index :add_folder
+    before_index :add_series
+    before_index :mods_cartographics_indexing
 
     def solr_client
       @solr_client
@@ -53,6 +55,21 @@ module Spotlight::Dor
 
     private
 
+    # add the box number to solr_doc as box_ssi field (note: single valued!)
+    #   data in location/physicalLocation or in relatedItem/location/physicalLocation
+    # TODO:  push this up to stanford-mods gem?  or should it be hierarchical series/box/folder?
+    def add_box(sdb, solr_doc)
+      # see spec for data from actual collections
+      #   _location.physicalLocation should find top level and relatedItem
+      box_num = sdb.smods_rec._location.physicalLocation.map do |node|
+        val = node.text
+        # note that this will also find Flatbox or Flat-box
+        match_data = val.match(/Box ?:? ?([^,|(Folder)]+)/i)
+        match_data[1].strip if match_data.present?
+      end
+      solr_doc['box_ssi'] = box_num.first if box_num.present?
+    end
+
     # This new donor_tags_sim field was added in October 2015 specifically for the Feigenbaum exhibit.  It is very likely
     #  it will go ununsed by other projects, but should be benign (since this field will not be created if this specific MODs note is not found.)
     #  Later refactoring could include project specific fields.   Peter Mangiafico
@@ -61,27 +78,47 @@ module Spotlight::Dor
       insert_field solr_doc, 'donor_tags', donor_tags, :symbol # this is a _ssim field
     end
 
+    # add the folder number to solr_doc as folder_ssi field (note: single valued!)
+    #   data in location/physicalLocation or in relatedItem/location/physicalLocation
+    # TODO:  push this up to stanford-mods gem?  or should it be hierarchical series/box/folder?
+    def add_folder(sdb, solr_doc)
+      # see spec for data from actual collections
+      #   _location.physicalLocation should find top level and relatedItem
+      folder_num = sdb.smods_rec._location.physicalLocation.map do |node|
+        val = node.text
+        # folder may be text with commas
+        match_data = val.match(/Folder:? ?(.+)/i)
+        next if match_data.blank?
+        result = match_data[1].strip
+        # Menuez collection may have folder followed by Sleeve then Frame
+        match2_data = result.match(/(.*),? ?Sleeve/i)
+        if match2_data
+          match2_data[1].strip.sub(/,$/, '')
+        else
+          result
+        end
+      end
+      solr_doc['folder_ssi'] = folder_num.first if folder_num.present?
+    end
+
     # add plain MODS <genre> element data, not the SearchWorks genre values
     def add_genre sdb, solr_doc
       insert_field solr_doc, 'genre', sdb.smods_rec.genre.content, :symbol # this is a _ssim field
     end
 
-    # add the series/accession 'number' to solr_doc as series_ssim field
-    # for feigenbaum collection, the raw data is in location/physicalLocation
+    # add the series/accession 'number' to solr_doc as series_ssi field (note: single valued!)
+    #   data in location/physicalLocation or in relatedItem/location/physicalLocation
+    # TODO:  push this up to stanford-mods gem?  or should it be hierarchical series/box/folder?
     def add_series(sdb, solr_doc)
-      # for feigenbaum collection, the raw data is in location/physicalLocation and looks like this:
-      # Call Number: SC0340, Accession 2005-101
-      # Call Number: SC0340, Accession 2005-101, Box : 39, Folder: 9
-      # Call Number: SC0340, Accession: 1986-052
-      # Call Number: SC0340, Accession: 1986-052, Box : 50, Folder: 31
-      # SC0340, Accession 1991-030
-      # SC0340, Accession 1991-030, Box 2
-      series_num = sdb.smods_rec.location.physicalLocation.map do |node|
+      # see spec for data from actual collections
+      #   _location.physicalLocation should find top level and relatedItem
+      series_num = sdb.smods_rec._location.physicalLocation.map do |node|
         val = node.text
-        res = val.match(/Accession:? ([^,]+)/i)
-        res[1] unless res.nil?
+        # feigenbaum uses 'Accession'
+        match_data = val.match(/(?:(?:Series)|(?:Accession)):? ([^,|]+)/i)
+        match_data[1].strip if match_data.present?
       end
-      insert_field solr_doc, 'series', series_num.uniq, :symbol # this is a _ssim field
+      solr_doc['series_ssi'] = series_num.first if series_num.present?
     end
 
     def mods_cartographics_indexing sdb, solr_doc
