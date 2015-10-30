@@ -47,6 +47,144 @@ describe Spotlight::Dor::Indexer do
     allow(r).to receive(:indexer).and_return i
   end
 
+  describe '#add_content_metadata_fields' do
+    before do
+      allow(r).to receive(:public_xml).and_return(public_xml)
+
+      # stacks url calculations require the druid
+      solr_doc[:id] = fake_druid
+
+      subject.send(:add_content_metadata_fields, sdb, solr_doc)
+    end
+
+    context 'with a record without contentMetadata' do
+      let(:public_xml) do
+        Nokogiri::XML <<-EOF
+          <publicObject></publicObject>
+          EOF
+      end
+
+      it 'is blank, except for the document id' do
+        expect(solr_doc.except(:id)).to be_blank
+      end
+    end
+
+    context 'with a record with contentMetadata' do
+      let(:public_xml) do
+        Nokogiri::XML <<-EOF
+          <publicObject>
+            <contentMetadata type="image">
+              <resource id="bj356mh7176_1" sequence="1" type="image">
+                <label>Image 1</label>
+                <file id="bj356mh7176_00_0001.jp2" mimetype="image/jp2" size="56108727">
+                  <imageData width="12967" height="22970"/>
+                </file>
+              </resource>
+            </contentMetadata>
+          </publicObject>
+          EOF
+      end
+
+      it 'indexes the declared content metadata type' do
+        expect(solr_doc['content_metadata_type_ssim']).to contain_exactly 'image'
+      end
+
+      it 'indexes the thumbnail information' do
+        expect(solr_doc['content_metadata_first_image_file_name_ssm']).to contain_exactly 'bj356mh7176_00_0001'
+        expect(solr_doc['content_metadata_first_image_width_ssm']).to contain_exactly '12967'
+        expect(solr_doc['content_metadata_first_image_height_ssm']).to contain_exactly '22970'
+      end
+
+      it 'indexes the images' do
+        stacks_base_url = 'https://stacks.stanford.edu/image/iiif/oo000oo0000%2Fbj356mh7176_00_0001'
+        expect(solr_doc['content_metadata_image_iiif_info_ssm']).to include "#{stacks_base_url}/info.json"
+        expect(solr_doc['thumbnail_square_url_ssm']).to include "#{stacks_base_url}/square/100,100/0/default.jpg"
+        expect(solr_doc['thumbnail_url_ssm']).to include "#{stacks_base_url}/full/!400,400/0/default.jpg"
+        expect(solr_doc['large_image_url_ssm']).to include "#{stacks_base_url}/full/pct:25/0/default.jpg"
+        expect(solr_doc['full_image_url_ssm']).to include "#{stacks_base_url}/full/full/0/default.jpg"
+      end
+    end
+  end
+
+  describe '#add_donor_tags' do
+    before do
+      allow(r).to receive(:mods).and_return(mods)
+      subject.send(:add_donor_tags, sdb, solr_doc)
+    end
+
+    context 'with a record without donor tags' do
+      let(:mods) do
+        Nokogiri::XML <<-EOF
+          <mods xmlns="#{Mods::MODS_NS}">
+            <note displayLabel="preferred citation">(not a donor tag)</note>
+          </mods>
+          EOF
+      end
+
+      it 'is blank' do
+        expect(solr_doc['donor_tags_ssim']).to be_blank
+      end
+    end
+
+    context 'with a record with donor tags' do
+      let(:mods) do
+        # e.g. from https://purl.stanford.edu/vw282gv1740
+        Nokogiri::XML <<-EOF
+          <mods xmlns="#{Mods::MODS_NS}">
+            <note displayLabel="Donor tags">Knowledge Systems Laboratory</note>
+            <note displayLabel="Donor tags">medical applications</note>
+            <note displayLabel="Donor tags">Publishing</note>
+            <note displayLabel="Donor tags">Stanford</note>
+            <note displayLabel="Donor tags">Stanford Computer Science Department</note>
+          </mods>
+          EOF
+      end
+
+      it 'extracts the donor tags' do
+        expect(solr_doc['donor_tags_ssim']).to contain_exactly 'Knowledge Systems Laboratory',
+                                                               'medical applications',
+                                                               'Publishing',
+                                                               'Stanford',
+                                                               'Stanford Computer Science Department'
+      end
+    end
+  end
+
+  describe '#add_genre' do
+    before do
+      allow(r).to receive(:mods).and_return(mods)
+      subject.send(:add_genre, sdb, solr_doc)
+    end
+
+    context 'with a record without a genre' do
+      let(:mods) do
+        Nokogiri::XML <<-EOF
+          <mods xmlns="#{Mods::MODS_NS}">
+          </mods>
+          EOF
+      end
+
+      it 'is blank' do
+        expect(solr_doc['genre_ssim']).to be_blank
+      end
+    end
+
+    context 'with a record with a genre' do
+      let(:mods) do
+        # e.g. from https://purl.stanford.edu/vw282gv1740
+        Nokogiri::XML <<-EOF
+          <mods xmlns="#{Mods::MODS_NS}">
+            <genre authority="aat" valueURI="http://vocab.getty.edu/aat/300028579">manuscripts for publication</genre>
+          </mods>
+          EOF
+      end
+
+      it 'extracts the genre' do
+        expect(solr_doc['genre_ssim']).to contain_exactly 'manuscripts for publication'
+      end
+    end
+  end
+
   describe '#add_series' do
     # example string as key, expected series name as value
     {
@@ -110,7 +248,7 @@ describe Spotlight::Dor::Indexer do
     end # each
   end # add_series
 
-  describe "#add_box" do
+  describe '#add_box' do
     # example string as key, expected box name as value
     {
       # feigenbaum
@@ -254,7 +392,9 @@ describe Spotlight::Dor::Indexer do
       </mods>
     EOF
   end
-  describe "#add_folder_name" do
+
+  # rubocop:disable Metrics/LineLength
+  describe '#add_folder_name' do
     # example string as key, expected folder name as value
     # all from feigenbaum (or based on feigenbaum), as that is only coll
     {
@@ -299,4 +439,5 @@ describe Spotlight::Dor::Indexer do
       end # for example
     end # each
   end # add_folder_name
+  # rubocop:enable Metrics/LineLength
 end
