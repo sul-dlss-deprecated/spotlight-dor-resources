@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday"
   spec.add_dependency 'solrizer'
   spec.add_dependency 'gdor-indexer'
+  spec.add_dependency 'harvestdor-indexer', '>= 2.2.0' # 2.2.0 introduced enumerable collections
   spec.add_dependency "rails"
   spec.add_dependency "blacklight-spotlight", "~> 0.5"
   spec.add_development_dependency "bundler", "~> 1.5"
