@@ -6,3 +6,7 @@ AllCops:
   Exclude:
     - 'spec/internal/**/*'
     - 'spec/test_app_templates/**/*'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'lib/spotlight/dor/indexer.rb'
