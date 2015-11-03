@@ -20,5 +20,7 @@ pickle-email-*.html
 .project
 config/initializers/secret_token.rb
 spec/internal
+.internal_test_app
 Gemfile.lock
 jetty
+./spec/internal

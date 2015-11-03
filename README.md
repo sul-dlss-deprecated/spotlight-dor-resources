@@ -24,7 +24,7 @@ Within a Spotlight application with `spotlight-dor-resources` installed, you cou
 
 Note that Spotlight:
 
-* is a Rails engine and needs to be used in the context of a Rails application. We use [engine_cart](https://github.com/cbeer/engine_cart) to create an internal test application at spec/internal.
+* is a Rails engine and needs to be used in the context of a Rails application. We use [engine_cart](https://github.com/cbeer/engine_cart) to create an internal test application at .internal_test_app.
 * uses Solr as part of its integration tests. We use [jettywrapper](https://github.com/projecthydra/jettywrapper) to manage the Solr instance used for development and test.
 
 Our `$ rake ci` task utilizes Solr and the testing rails app, with Spotlight installed, automatically.
@@ -36,13 +36,11 @@ For access to a Rails console with the gem loaded up for testing purposes, you c
     $ bundle
     $ bundle exec rake:ci
 
-This will download a test jetty instance (to run Solr), generate a testing app at ```spec/internal``` and run the tests.
+This will download a test jetty instance (to run Solr), generate a testing app at ```.internal_test_app``` and run the tests.
 
 ### Indexing with the generated test app
 
-    $ cd spec/internal
-
-    $ bundle exec rails console
+    $ bundle exec rake engine_cart:console
 
 ```ruby
 druid="ty202yt2402" # a feigenbaum druid
