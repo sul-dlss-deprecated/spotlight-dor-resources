@@ -10,7 +10,7 @@ EngineCart.load_application!
 require 'rspec/rails'
 require 'capybara/poltergeist'
 Capybara.javascript_driver = :poltergeist
-Capybara.default_wait_time = 5
+Capybara.default_max_wait_time = 5
 
 if ENV["COVERAGE"] or ENV["CI"]
   require 'simplecov'
