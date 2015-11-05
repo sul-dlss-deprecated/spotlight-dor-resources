@@ -1,7 +1,10 @@
 # rubocop:disable Metrics/ClassLength
+# rubocop:disable Metrics/AbcSize
+
 # external gems
 require 'gdor/indexer'
 require 'solrizer'
+require 'faraday'
 
 module Spotlight::Dor
   # Base class to harvest from DOR via harvestdor gem
@@ -125,7 +128,7 @@ module Spotlight::Dor
         add_thumbnail_fields(images.first, solr_doc) if images.first
 
         images.each do |image|
-          add_image_fields(image, solr_doc)
+          add_image_fields(image, solr_doc, sdb.bare_druid)
         end
       end
 
@@ -140,9 +143,9 @@ module Spotlight::Dor
         Solrizer.insert_field(solr_doc, 'content_metadata_first_image_height', image_data['height'], :displayable)
       end
 
-      def add_image_fields(node, solr_doc)
+      def add_image_fields(node, solr_doc, druid)
         file_id = node.attr('id').gsub('.jp2', '')
-        base_url = stacks_iiif_url(solr_doc[:id], file_id)
+        base_url = stacks_iiif_url(druid, file_id)
 
         Solrizer.insert_field(solr_doc, 'content_metadata_image_iiif_info', "#{base_url}/info.json", :displayable)
         Solrizer.insert_field(solr_doc, 'thumbnail_square_url', "#{base_url}/square/100,100/0/default.jpg", :displayable)
@@ -189,19 +192,16 @@ module Spotlight::Dor
 
       # search for configured full text files, and if found, add them to the full text (whole document) solr field
       def add_object_full_text(sdb, solr_doc)
-        object_level_full_text_urls(sdb).each do |file_url|
-          # append content from each file to the field, creating field if it doesn't exist yet
-          # ruby note: the construct below allows us to append a string to a variable that starts out as nil
-          # because .to_s of nil is empty string
-          solr_doc['full_text_tesim'] = solr_doc['full_text_tesim'].to_s + get_file_content(file_url)
-        end
+        full_text_urls = object_level_full_text_urls(sdb)
+        return if full_text_urls.size == 0
+        solr_doc['full_text_tesim'] = full_text_urls.map { |file_url| get_file_content(file_url) }
       end
 
       # go grab the supplied file url, grab the file, encode and return
-      # TODO: thse should also be able to also deal with .rtf and .xml files
+      # TODO: this should also be able to deal with .rtf and .xml files, scrubbing/converting as necessary to get plain text
       def get_file_content(file_url)
-        response = Net::HTTP.get_response(URI.parse(file_url))
-        response.body.scrub.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
+        response = Faraday.get(file_url)
+        response.body.scrub.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?').gsub(/\s+/, ' ')
       rescue
         logger.warn("Error indexing full text - couldn't load file #{file_url}")
         nil
@@ -213,7 +213,7 @@ module Spotlight::Dor
         files = []
         object_level_full_text_filenames(sdb).each do |xpath_location|
           files += sdb.public_xml.xpath(xpath_location).map do |txt_file|
-            "#{Spotlight::Dor::Resources::Engine.config.stacks_file_url}/#{sdb.druid}/#{txt_file['id']}"
+            "#{Spotlight::Dor::Resources::Engine.config.stacks_file_url}/#{sdb.bare_druid}/#{txt_file['id']}"
           end
         end
         files
@@ -223,7 +223,7 @@ module Spotlight::Dor
       #  add as many as you need, all will be searched
       def object_level_full_text_filenames(sdb)
         [
-          "//contentMetadata/resource/file[@id=\"#{sdb.druid}.txt\"]" # feigenbaum style - full text in .txt named for druid
+          "//contentMetadata/resource/file[@id=\"#{sdb.bare_druid}.txt\"]" # feigenbaum style - full text in .txt named for druid
         ]
       end
     end

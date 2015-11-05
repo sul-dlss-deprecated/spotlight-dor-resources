@@ -1,3 +1,8 @@
+dor_fetcher:
+  service_url: http://dorfetcher-url
+  # if skip_heartbeat set to true, this will skip a check that the dorfetcher service is alive before making API calls
+  skip_heartbeat: true
+
 harvestdor:
   # log_dir:  directory for log file  (default logs, relative to harvestdor gem path)
   log_dir: log
