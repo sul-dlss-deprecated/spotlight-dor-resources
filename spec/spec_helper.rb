@@ -1,6 +1,5 @@
 ENV["RAILS_ENV"] ||= 'test'
 
-require 'factory_girl'
 require 'database_cleaner'
 require 'devise'
 require 'engine_cart'
@@ -8,9 +7,7 @@ require 'vcr'
 EngineCart.load_application!
 
 require 'rspec/rails'
-require 'capybara/poltergeist'
-Capybara.javascript_driver = :poltergeist
-Capybara.default_max_wait_time = 5
+require 'capybara'
 
 if ENV["COVERAGE"] or ENV["CI"]
   require 'simplecov'
@@ -26,9 +23,6 @@ require 'spotlight'
 
 
 Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
-
-FactoryGirl.definition_file_paths = [File.expand_path("../factories", __FILE__)]
-FactoryGirl.find_definitions
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/vcr_cassettes"

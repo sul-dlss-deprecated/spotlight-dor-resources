@@ -1,6 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 require 'spotlight/dor/resources/version'
 
 Gem::Specification.new do |spec|
@@ -30,11 +31,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'capybara'
-  spec.add_development_dependency 'poltergeist', '>= 1.5.0'
   spec.add_development_dependency 'vcr', '~> 3.0'
   spec.add_development_dependency 'webmock'
   spec.add_development_dependency 'jettywrapper'
   spec.add_development_dependency 'engine_cart', '~> 0.8'
-  spec.add_development_dependency 'factory_girl'
   spec.add_development_dependency 'database_cleaner'
 end
