@@ -23,4 +23,4 @@ spec/internal
 .internal_test_app
 Gemfile.lock
 jetty
-./spec/internal
+.pry_history
