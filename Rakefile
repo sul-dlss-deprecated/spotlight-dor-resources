@@ -27,6 +27,7 @@ RuboCop::RakeTask.new(:rubocop)
 
 require 'jettywrapper'
 require 'engine_cart/rake_task'
+desc 'Run tests in generated test Rails app with generated Solr instance running'
 task ci: ['engine_cart:generate', 'jetty:clean', 'spotlight:configure_jetty'] do
   ENV['environment'] = 'test'
   jetty_params = Jettywrapper.load_config
