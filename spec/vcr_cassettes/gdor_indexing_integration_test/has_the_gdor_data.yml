@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -33,9 +33,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.008905'
+      - '0.007432'
       X-Request-Id:
-      - 7a09520e-194e-4811-a9f0-75896c0ece64
+      - 4e00d238-1092-4e98-a12f-a20de838f2c8
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -129,7 +129,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -149,7 +149,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -163,9 +163,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.007248'
+      - '0.006175'
       X-Request-Id:
-      - 5a45eae4-2a47-421e-8d40-9ee38e939c0b
+      - a5465be7-a4f4-4c55-bd3c-af4f5396518f
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -259,7 +259,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -279,7 +279,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -293,9 +293,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.007503'
+      - '0.006204'
       X-Request-Id:
-      - d4babdab-c1de-4fd8-84a4-3dc5fafb026b
+      - dc940480-bf79-4272-9903-a541a47c0e95
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -389,7 +389,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -409,7 +409,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -423,9 +423,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.003909'
+      - '0.006602'
       X-Request-Id:
-      - f8ccafdb-1e64-4faa-9389-7ce35e122c62
+      - 64ea9b5b-58ef-4390-a4db-569d35e86676
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -519,7 +519,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -539,7 +539,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -553,9 +553,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006446'
+      - '0.006994'
       X-Request-Id:
-      - eb1b010c-3e0d-4a3a-8124-979c78330f66
+      - 21b7b3e8-96ed-4f9f-ba84-84252c63a1cd
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -649,7 +649,7 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -669,7 +669,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:01 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -683,9 +683,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.006284'
+      - '0.005359'
       X-Request-Id:
-      - 738e5a55-3a7a-4cc8-9902-13dd3bddea69
+      - d492ad2d-fa44-403e-bd8c-81745b1d319b
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -779,7 +779,137 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:01 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
+- request:
+    method: get
+    uri: https://purl.stanford.edu/xf680rd3068.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 10 Nov 2015 20:02:55 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - '"37e08cb364489ba8b40e25f7e60ef051"'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.006632'
+      X-Request-Id:
+      - 4839f7a2-f5a4-4f00-81db-3fe96e38df6c
+      X-Powered-By:
+      - Phusion Passenger 5.0.16
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Last-Modified:
+      - Fri, 24 Apr 2015 18:45:21 GMT
+      Status:
+      - 200 OK
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/xml; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <publicObject id="druid:xf680rd3068" published="2015-04-24T11:45:16-07:00">
+          <identityMetadata>
+            <sourceId source="sul">MISC_1855</sourceId>
+            <objectId>druid:xf680rd3068</objectId>
+            <objectCreator>DOR</objectCreator>
+            <objectLabel>Latin glossary : small manuscript fragment on vellum.</objectLabel>
+            <objectType>item</objectType>
+            <adminPolicy>druid:yg077np2529</adminPolicy>
+            <otherId name="catkey">10157160</otherId>
+            <otherId name="uuid">48b412d0-516c-11e3-bb66-0050569b3c3c</otherId>
+            <tag>Process : Content Type : Image</tag>
+            <tag>Project : Special Collections - Exhibitions</tag>
+            <tag>JIRA : PROJQUEUE-85</tag>
+            <tag>DPG : Medieval Manuscript Exhibition 2014</tag>
+            <tag>DPG : Curator Request : Jordan</tag>
+            <tag>Registered By : astrids</tag>
+            <tag>Remediated By : 4.14.4</tag>
+          </identityMetadata>
+          <contentMetadata type="image" objectId="xf680rd3068">
+            <resource type="image" sequence="1" id="xf680rd3068_1">
+              <label>Image 1</label>
+              <file id="xf680rd3068_00_0001.jp2" mimetype="image/jp2" size="887079">
+                <imageData width="1794" height="2627"/>
+              </file>
+            </resource>
+            <resource type="image" sequence="2" id="xf680rd3068_2">
+              <label>Image 2</label>
+              <file id="xf680rd3068_00_0002.jp2" mimetype="image/jp2" size="887064">
+                <imageData width="1794" height="2627"/>
+              </file>
+            </resource>
+          </contentMetadata>
+          <rightsMetadata>
+            <access type="discover">
+              <machine>
+                <world/>
+              </machine>
+            </access>
+            <access type="read">
+              <machine>
+                <world/>
+              </machine>
+            </access>
+            <use>
+              <human type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</human>
+            </use>
+            <use>
+              <human type="creativeCommons"/>
+              <machine type="creativeCommons"/>
+            </use>
+          </rightsMetadata>
+          <rdf:RDF xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="info:fedora/druid:xf680rd3068">
+              <fedora:isMemberOf rdf:resource="info:fedora/druid:sk373nx0013"/>
+              <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:sk373nx0013"/>
+            </rdf:Description>
+          </rdf:RDF>
+          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+            <dc:title>Latin glossary : small manuscript fragment on vellum</dc:title>
+            <dc:date>1200-1299</dc:date>
+            <dc:date>13th century</dc:date>
+            <dc:language>lat</dc:language>
+            <dc:format>1 fragment, 96 x 151 mm.</dc:format>
+            <dc:description>Unidentified Latin vocabulary, this portion part of the letter M, with a total of 35 lemmata (a word or phrase that is glossed; headword).</dc:description>
+            <dc:rights>Open for research; material must be requested at least 24 hours in advance of intended use.</dc:rights>
+            <dc:description>Lower portion of vellum leaf, removed from a binding.</dc:description>
+            <dc:description>Script: professional gotica textualis, 2 columns, with a fair amount of abbreviations.</dc:description>
+            <dc:description type="acquisition">Purchased from Bonhams, 2013. Accession 2013-080.</dc:description>
+            <dc:description type="ownership">Previously in the Bernard M. Rosenthal collection; with Rosenthal's dealer description included with the manuscript, together with a note re previous ownership of Bernard Bischoff.</dc:description>
+            <dc:subject>Manuscripts, Latin (Medieval and modern)</dc:subject>
+            <dc:coverage>France</dc:coverage>
+            <dc:subject>Manuscripts, Latin (Medieval and modern)--France</dc:subject>
+            <dc:relation type="collection">Stanford University Libraries Special Collections, Manuscripts Division</dc:relation>
+          </oai_dc:dc>
+          <ReleaseData/>
+        </publicObject>
+    http_version: 
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.mods
@@ -799,23 +929,23 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:02 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
       - max-age=0, private, must-revalidate
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - f93facb5-ac03-4916-bc06-feb640634ac6
       Etag:
       - '"37e08cb364489ba8b40e25f7e60ef051"'
       X-Frame-Options:
       - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
+      X-Runtime:
+      - '0.007006'
       X-Content-Type-Options:
       - nosniff
-      X-Runtime:
-      - '0.008189'
-      X-Request-Id:
-      - 89365053-34f5-4a34-8007-8625c5e35602
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -885,7 +1015,7 @@ http_interactions:
           <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to publish or reproduce, please contact the Special Collections Public Services Librarian at speccollref@stanford.edu.</accessCondition>
         </mods>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:02 GMT
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
 - request:
     method: get
     uri: https://purl.stanford.edu/xf680rd3068.xml
@@ -905,7 +1035,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 30 Oct 2015 14:06:02 GMT
+      - Tue, 10 Nov 2015 20:02:55 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       Cache-Control:
@@ -919,9 +1049,9 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Runtime:
-      - '0.004553'
+      - '0.006705'
       X-Request-Id:
-      - a1c27389-068c-499b-b346-9ac67494ecf5
+      - 93e3a235-be5f-40e6-a137-7a5170ddb862
       X-Powered-By:
       - Phusion Passenger 5.0.16
       Strict-Transport-Security:
@@ -1015,5 +1145,5 @@ http_interactions:
           <ReleaseData/>
         </publicObject>
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 14:06:02 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 10 Nov 2015 20:02:54 GMT
+recorded_with: VCR 3.0.0
