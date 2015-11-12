@@ -6,7 +6,7 @@ class TestAppGenerator < Rails::Generators::Base
   def add_gems
     gem 'blacklight-spotlight'
     Bundler.with_clean_env do
-      run 'bundle install'
+      run 'bundle install --quiet'
     end
   end
 
