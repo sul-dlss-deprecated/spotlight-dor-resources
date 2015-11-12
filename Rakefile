@@ -10,15 +10,6 @@ Bundler::GemHelper.install_tasks
 
 task default: [:ci, :rubocop]
 
-namespace :spotlight do
-  desc 'Copies the default SOLR config for the bundled Testing Server'
-  task :configure_jetty do
-    FileList['solr_conf/conf/*'].each do |f|
-      cp("#{f}", 'jetty/solr/blacklight-core/conf/', verbose: true)
-    end
-  end
-end
-
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 
@@ -27,8 +18,9 @@ RuboCop::RakeTask.new(:rubocop)
 
 require 'jettywrapper'
 require 'engine_cart/rake_task'
+require 'exhibits_solr_conf'
 desc 'Run tests in generated test Rails app with generated Solr instance running'
-task ci: ['engine_cart:generate', 'jetty:clean', 'spotlight:configure_jetty'] do
+task ci: ['engine_cart:generate', 'jetty:clean', 'exhibits:configure_solr'] do
   ENV['environment'] = 'test'
   jetty_params = Jettywrapper.load_config
   jetty_params[:startup_wait] = 60

@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'jettywrapper'
   spec.add_development_dependency 'engine_cart', '~> 0.8'
   spec.add_development_dependency 'database_cleaner'
+  spec.add_development_dependency 'exhibits_solr_conf'
 end
