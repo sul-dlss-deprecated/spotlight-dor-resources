@@ -22,10 +22,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'faraday'
   spec.add_dependency 'solrizer'
-  spec.add_dependency 'stanford-mods', '>= 1.2.0' # includes new person facets
   spec.add_dependency 'gdor-indexer'
   # newer versions of harvestdor-indexer have performance improvements for collections
   spec.add_dependency 'harvestdor-indexer', '~> 2.3'
+  # stanford-mods 1.2.1 includes additional name fields and a bug fix
+  spec.add_dependency 'stanford-mods', '>= 1.2.1'
   spec.add_dependency 'rails'
   spec.add_dependency 'blacklight-spotlight', '~> 0.6'
   spec.add_dependency 'parallel'
