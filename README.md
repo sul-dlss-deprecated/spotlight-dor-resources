@@ -34,7 +34,7 @@ For access to a Rails console with the gem loaded up for testing purposes, you c
 ### First time only configuration for local testing
 
     $ bundle
-    $ bundle exec rake:ci
+    $ bundle exec rake ci
 
 This will download a test jetty instance (to run Solr), generate a testing app at ```.internal_test_app``` and run the tests.
 
