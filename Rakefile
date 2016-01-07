@@ -22,6 +22,7 @@ require 'exhibits_solr_conf'
 desc 'Run tests in generated test Rails app with generated Solr instance running'
 task ci: ['engine_cart:generate', 'jetty:clean', 'exhibits:configure_solr'] do
   ENV['environment'] = 'test'
+  ENV['TEST_JETTY_PORT'] = '8983'
   jetty_params = Jettywrapper.load_config
   jetty_params[:startup_wait] = 60
 
