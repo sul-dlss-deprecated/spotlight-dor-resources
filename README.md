@@ -40,12 +40,19 @@ This will download a test jetty instance (to run Solr), generate a testing app a
 
 ### Indexing with the generated test app
 
+    $ rake exhibits:configure_solr
+    $ rake jetty:clean
+    $ rake jetty:start
     $ bundle exec rake engine_cart:console
 
 ```ruby
 druid="ty202yt2402" # a feigenbaum druid
 druid="cx709ty7769" # a revs druid
 purl=Spotlight::Resources::Purl.new({:url=>"https://purl.stanford.edu/#{druid}"})
+purl.exhibit=Spotlight::Exhibit.new # need an exhibit to attach the test solr docs too
+purl.exhibit.title='stanford'
+purl.exhibit.save
+
 puts purl.to_solr.first # the solr document as a hash
 public_xml=purl.resource.public_xml # nokogiri doc with all public XML
 mods=purl.resource.mods # nokogiri doc with just the MODs
