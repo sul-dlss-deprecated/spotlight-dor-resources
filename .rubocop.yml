@@ -13,10 +13,18 @@ AllCops:
     - 'spec/spec_helper.rb'
     - 'spec/teaspoon_env.rb'
     - 'vendor/**/*'
-  RunRailsCops: true
+  Rails:
+    Enabled: true
+  TargetRubyVersion: 2.2
 
 Metrics/LineLength:
   Max: 130
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
 
 Style/StringLiterals:
   Enabled: true
@@ -25,3 +33,6 @@ Style/StringLiterals:
 RSpec/DescribeClass:
   Exclude:
     - 'spec/integration/*'
+
+RSpec/FilePath:
+  Enabled: false
