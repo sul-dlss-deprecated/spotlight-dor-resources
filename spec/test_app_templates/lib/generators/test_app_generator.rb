@@ -26,6 +26,7 @@ class TestAppGenerator < Rails::Generators::Base
     remove_file 'app/controllers/catalog_controller.rb'
 
     generate 'spotlight:install', '-f --mailer_default_url_host=localhost:3000'
+    rake 'db:migrate'
   end
 
   def add_catalog_controller
@@ -34,6 +35,10 @@ class TestAppGenerator < Rails::Generators::Base
 
   def configure_gdor
     copy_file 'gdor.yml', 'config/gdor.yml', force: true
+  end
+  
+  def run_spotlight_dor_resources_generator
+    generate 'spotlight:dor:resources:install'
   end
 
 end

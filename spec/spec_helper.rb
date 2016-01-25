@@ -1,6 +1,5 @@
 ENV["RAILS_ENV"] ||= 'test'
 
-require 'database_cleaner'
 require 'devise'
 require 'engine_cart'
 require 'vcr'
@@ -8,6 +7,13 @@ EngineCart.load_application!
 
 require 'rspec/rails'
 require 'capybara'
+
+require 'factory_girl_rails'
+FactoryGirl.definition_file_paths ||= []
+FactoryGirl.definition_file_paths << "#{Gem.loaded_specs['blacklight-spotlight'].full_gem_path}/spec/factories"
+FactoryGirl.find_definitions
+
+require 'database_cleaner'
 
 if ENV["COVERAGE"] or ENV["CI"]
   require 'simplecov'
