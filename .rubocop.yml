@@ -13,9 +13,10 @@ AllCops:
     - 'spec/spec_helper.rb'
     - 'spec/teaspoon_env.rb'
     - 'vendor/**/*'
-  Rails:
-    Enabled: true
   TargetRubyVersion: 2.2
+
+Rails:
+  Enabled: true
 
 Metrics/LineLength:
   Max: 130

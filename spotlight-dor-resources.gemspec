@@ -41,6 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'database_cleaner'
   spec.add_development_dependency 'exhibits_solr_conf'
   spec.add_development_dependency 'factory_girl_rails'
+  spec.add_development_dependency 'rubocop', '~> 0.36'
 
   # FIXME: we shouldn't need explicit sitemap_generator dependency here as it should come with spotlight
   #   but travis fails without it (though tests run fine locally)
