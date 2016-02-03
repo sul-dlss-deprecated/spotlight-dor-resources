@@ -48,20 +48,20 @@ This will download a test jetty instance (to run Solr), generate a testing app a
 ```ruby
 druid="ty202yt2402" # a feigenbaum druid
 druid="cx709ty7769" # a revs druid
-purl=Spotlight::Resources::Purl.new({:url=>"https://purl.stanford.edu/#{druid}"})
+purl=Spotlight::Resources::DorHarvester.new(druid_list: druid)
 purl.exhibit=Spotlight::Exhibit.new # need an exhibit to attach the test solr docs too
 purl.exhibit.title='stanford'
 purl.exhibit.save
 
 puts purl.to_solr.first # the solr document as a hash
-public_xml=purl.resource.public_xml # nokogiri doc with all public XML
-mods=purl.resource.mods # nokogiri doc with just the MODs
-smods_rec=purl.resource.smods_rec # a Stanford::Mods::Record Object (which inherits from the MODS gem)
+public_xml=purl.resources[0].public_xml # nokogiri doc with all public XML
+mods=purl.resources[0].mods # nokogiri doc with just the MODs
+smods_rec=purl.resources[0].smods_rec # a Stanford::Mods::Record Object (which inherits from the MODS gem)
 
-puts purl.resource.bare_druid # will not have the "druid:" prefix
-puts purl.resource.druid # might have the "druid:" prefix (if returned as the result of an is_collection call)
+puts purl.resources[0].bare_druid # will not have the "druid:" prefix
+puts purl.resources[0].druid # might have the "druid:" prefix (if returned as the result of an is_collection call)
 
-purl.resource.indexer.config.solr.url # the configured solr server (should be localhost in development)
+purl.resources[0].indexer.config.solr.url # the configured solr server (should be localhost in development)
 
 purl.save # save to database and index to solr
 purl.reindex # reindex once saved the first time
