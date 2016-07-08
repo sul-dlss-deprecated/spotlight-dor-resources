@@ -4,8 +4,6 @@ rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
 
-ZIP_URL = 'https://github.com/projectblacklight/blacklight-jetty/archive/v4.10.4.zip'
-
 Bundler::GemHelper.install_tasks
 
 task default: [:ci, :rubocop]
@@ -16,19 +14,17 @@ RSpec::Core::RakeTask.new(:spec)
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new(:rubocop)
 
-require 'jettywrapper'
 require 'engine_cart/rake_task'
-require 'exhibits_solr_conf'
 desc 'Run tests in generated test Rails app with generated Solr instance running'
-task ci: ['engine_cart:generate', 'jetty:clean', 'exhibits:configure_solr'] do
+task ci: ['engine_cart:generate'] do
+  require 'solr_wrapper'
+  require 'exhibits_solr_conf'
   ENV['environment'] = 'test'
-  ENV['TEST_JETTY_PORT'] = '8983'
-  jetty_params = Jettywrapper.load_config
-  jetty_params[:startup_wait] = 60
-
-  Jettywrapper.wrap(jetty_params) do
-    # run the tests
-    Rake::Task['spec'].invoke
+  SolrWrapper.wrap(port: '8983') do |solr|
+    solr.with_collection(name: 'blacklight-core', dir: ExhibitsSolrConf.path) do
+      # run the tests
+      Rake::Task['spec'].invoke
+    end
   end
 end
 
