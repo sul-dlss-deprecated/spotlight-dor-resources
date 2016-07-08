@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   # newer versions of harvestdor-indexer have performance improvements for collections
   spec.add_dependency 'harvestdor-indexer', '~> 2.3'
   spec.add_dependency 'rails'
-  spec.add_dependency 'blacklight-spotlight', '~> 0.16'
+  spec.add_dependency 'blacklight-spotlight', '~> 0.18'
   spec.add_dependency 'parallel'
   spec.add_dependency 'stanford-mods', '~> 2.1'
   spec.add_development_dependency 'bundler', '~> 1.5'
