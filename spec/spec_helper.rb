@@ -30,7 +30,6 @@ FactoryGirl.find_definitions
 require 'database_cleaner'
 require 'spotlight'
 
-
 Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
 
 VCR.configure do |config|
@@ -56,8 +55,13 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
-  config.include Devise::TestHelpers, type: :controller
-  config.include Devise::TestHelpers, type: :view
+  if defined? Devise::Test::ControllerHelpers
+    config.include Devise::Test::ControllerHelpers, type: :controller
+    config.include Devise::Test::ControllerHelpers, type: :view
+  else
+    config.include Devise::TestHelpers, type: :controller
+    config.include Devise::TestHelpers, type: :view
+  end
   config.include Warden::Test::Helpers, type: :feature
   config.after(:each, type: :feature) { Warden.test_reset! }
   config.include Capybara::DSL
