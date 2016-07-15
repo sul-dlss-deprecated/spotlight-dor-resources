@@ -42,10 +42,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'exhibits_solr_conf', '~> 0.1'
   spec.add_development_dependency 'factory_girl_rails'
   spec.add_development_dependency 'rubocop', '~> 0.36'
+  spec.add_development_dependency 'riiif', '~> 0.4.0' # optional dependency in production
 
   # FIXME: we shouldn't need explicit sitemap_generator dependency here as it should come with spotlight
   #   but travis fails without it (though tests run fine locally)
-  # cbeer:  "we're injecting the dependency into the host app. maybe we're just
-  #   missing a `bundle install` somewhere to fix that up"
+  # cbeer: "we're injecting the dependency into the host app.
+  #        maybe we're just missing a `bundle install` somewhere to fix that up"
   spec.add_development_dependency 'sitemap_generator'
 end
