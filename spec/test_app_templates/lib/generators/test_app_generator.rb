@@ -36,7 +36,11 @@ class TestAppGenerator < Rails::Generators::Base
   def configure_gdor
     copy_file 'gdor.yml', 'config/gdor.yml', force: true
   end
-  
+
+  def configure_papertrail
+    copy_file 'paper_trail.rb', 'config/initializers/paper_trail.rb'
+  end
+
   def run_spotlight_dor_resources_generator
     generate 'spotlight:dor:resources:install'
   end
