@@ -8,6 +8,7 @@ module Spotlight::Dor::Resources
     config.base_stacks_url = 'https://stacks.stanford.edu'
     config.stacks_file_url = "#{config.base_stacks_url}/file"
     config.stacks_iiif_url = "#{config.base_stacks_url}/image/iiif"
+    config.geonames_username = nil
 
     initializer 'spotlight.resources.dor_harvester.initialize' do
       Spotlight::Engine.config.external_resources_partials ||= []
