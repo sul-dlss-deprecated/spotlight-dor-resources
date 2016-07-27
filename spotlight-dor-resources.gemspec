@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'solrizer'
   spec.add_dependency 'gdor-indexer', '>=0.5.0' # for new pub date methods
   # newer versions of harvestdor-indexer have performance improvements for collections
-  spec.add_dependency 'harvestdor-indexer', '~> 2.3', '>= 2.3.2'
+  spec.add_dependency 'harvestdor-indexer', '~> 2.4'
   spec.add_dependency 'rails'
   spec.add_dependency 'blacklight-spotlight', '~> 0.19'
   spec.add_dependency 'parallel'
